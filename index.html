@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Salerno — VP of Go-to-Market at 0G Labs | Blockchain & AI Infrastructure</title>
+    <meta name="description" content="Jake Salerno is the VP of Go-to-Market at 0G Labs, building the first decentralized AI operating system. Speaker, strategist, and builder at the intersection of blockchain and artificial intelligence.">
+    <meta name="keywords" content="Jake Salerno, 0G Labs, blockchain, AI infrastructure, decentralized AI, Web3, go-to-market, Chainlink, TOKEN2049, ETHDenver">
+    <meta name="author" content="Jake Salerno">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jakesalerno.ai">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jake Salerno — VP of Go-to-Market at 0G Labs">
+    <meta property="og:description" content="Building the future of decentralized AI infrastructure. Speaker, strategist, and builder at the intersection of blockchain and AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jakesalerno.ai">
+    <meta property="og:image" content="https://jakesalerno.ai/headshot.jpeg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@JakeSalerno">
+    <meta name="twitter:creator" content="@JakeSalerno">
+    <meta name="twitter:title" content="Jake Salerno — VP of Go-to-Market at 0G Labs">
+    <meta name="twitter:description" content="Building the future of decentralized AI infrastructure. Speaker, strategist, and builder at the intersection of blockchain and AI.">
+
+    <!-- Schema.org Person Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jake Salerno",
+        "url": "https://jakesalerno.ai",
+        "image": "https://jakesalerno.ai/headshot.jpeg",
+        "jobTitle": "VP of Go-to-Market",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "0G Labs",
+            "url": "https://0g.ai"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Miami University"
+        },
+        "description": "VP of Go-to-Market at 0G Labs, building the first decentralized AI operating system. Previously at Chainlink Labs. Speaker and strategist at the intersection of blockchain and AI infrastructure.",
+        "knowsAbout": ["Blockchain", "Artificial Intelligence", "Decentralized AI", "Web3", "Go-to-Market Strategy", "Business Development", "DePIN", "Data Availability"],
+        "sameAs": [
+            "https://www.linkedin.com/in/jakesalerno/",
+            "https://x.com/JakeSalerno",
+            "https://www.instagram.com/jakesalerno/",
+            "https://iq.wiki/wiki/jake-salerno"
+        ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #FAFAF8;
+            --bg-alt: #F0EFEC;
+            --text: #1A1A18;
+            --text-secondary: #6B6B66;
+            --accent: #0A0A08;
+            --accent-hover: #2D2D2A;
+            --border: #E0DFDC;
+            --white: #FFFFFF;
+            --link: #1A5CFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ---- NAV ---- */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(250, 250, 248, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .nav-name {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.2rem;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+        /* ---- HERO ---- */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 8rem 2rem 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-text {
+            max-width: 560px;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            padding: 0.4rem 0.8rem;
+            border: 1px solid var(--border);
+            border-radius: 2px;
+        }
+
+        .hero h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.75rem);
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-description {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            line-height: 1.75;
+            margin-bottom: 2rem;
+            max-width: 480px;
+        }
+
+        .hero-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text);
+        }
+
+        .hero-image-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image {
+            width: 400px;
+            height: 480px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 4px;
+            filter: grayscale(15%);
+            transition: filter 0.4s ease;
+        }
+
+        .hero-image:hover {
+            filter: grayscale(0%);
+        }
+
+        /* ---- SECTIONS ---- */
+        section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: clamp(1.75rem, 3vw, 2.5rem);
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .section-divider {
+            width: 100%;
+            height: 1px;
+            background: var(--border);
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        /* ---- ABOUT ---- */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+
+        .about-text p {
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-content: start;
+            padding-top: 0.5rem;
+        }
+
+        .stat {
+            padding: 1.5rem;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+        }
+
+        .stat-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2rem;
+            color: var(--text);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            letter-spacing: 0.02em;
+        }
+
+        /* ---- EXPERIENCE ---- */
+        .experience-grid {
+            display: grid;
+            gap: 0;
+            margin-top: 2rem;
+        }
+
+        .experience-item {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 3rem;
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .experience-item:first-child {
+            border-top: 1px solid var(--border);
+        }
+
+        .experience-period {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            padding-top: 0.15rem;
+        }
+
+        .experience-details h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .experience-company {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .experience-desc {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        /* ---- SPEAKING ---- */
+        .speaking-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .speaking-card {
+            padding: 2rem;
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            transition: border-color 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .speaking-card:hover {
+            border-color: var(--text);
+        }
+
+        .speaking-event {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .speaking-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .speaking-meta {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* ---- PRESS ---- */
+        .press-grid {
+            display: grid;
+            gap: 0;
+            margin-top: 2rem;
+        }
+
+        .press-item {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.2s ease;
+        }
+
+        .press-item:first-child {
+            border-top: 1px solid var(--border);
+        }
+
+        .press-item:hover {
+            opacity: 0.7;
+        }
+
+        .press-source {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+
+        .press-title {
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+
+        .press-arrow {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        /* ---- CONTACT ---- */
+        .contact-section {
+            text-align: center;
+            padding: 8rem 2rem;
+        }
+
+        .contact-section .section-title {
+            margin-bottom: 1rem;
+        }
+
+        .contact-description {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            transition: all 0.2s ease;
+        }
+
+        .contact-links a:hover {
+            border-color: var(--text);
+            background: var(--white);
+        }
+
+        /* ---- FOOTER ---- */
+        footer {
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+        }
+
+        /* ---- ANIMATIONS ---- */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ---- RESPONSIVE ---- */
+        @media (max-width: 900px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+                text-align: center;
+            }
+
+            .hero-text {
+                max-width: 100%;
+                order: 2;
+            }
+
+            .hero-description {
+                max-width: 100%;
+            }
+
+            .hero-image-wrapper {
+                order: 1;
+            }
+
+            .hero-image {
+                width: 280px;
+                height: 340px;
+            }
+
+            .hero-links {
+                justify-content: center;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .experience-item {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+
+            .speaking-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 1rem 1.25rem;
+            }
+
+            .hero {
+                padding: 6rem 1.25rem 3rem;
+            }
+
+            section {
+                padding: 4rem 1.25rem;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+
+            .contact-section {
+                padding: 5rem 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="nav-name">Jake Salerno</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#speaking">Speaking</a></li>
+            <li><a href="#press">Press</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Blockchain &times; AI Infrastructure</span>
+                <h1>Jake Salerno</h1>
+                <p class="hero-description">
+                    VP of Go-to-Market at <strong>0G Labs</strong>, building the first decentralized AI operating system. Previously at Chainlink Labs. Speaker, strategist, and builder working to make AI a public good.
+                </p>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/jakesalerno/" class="btn-primary" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/JakeSalerno" class="btn-secondary" target="_blank" rel="noopener">@JakeSalerno</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="headshot.jpeg" alt="Jake Salerno speaking at TOKEN2049" class="hero-image" width="400" height="480">
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About -->
+    <section id="about" class="fade-in">
+        <span class="section-label">About</span>
+        <h2 class="section-title">At the intersection of blockchain and AI</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Jake Salerno is the VP of Go-to-Market at 0G Labs, where he built and leads the team responsible for ecosystem growth, partnerships, and go-to-market strategy for the first decentralized AI operating system.
+                </p>
+                <p>
+                    Since joining 0G in 2024, Jake has helped scale the ecosystem to over 350 integrations, shaping how AI and Web3 connect across modular infrastructure. Under his leadership, 0G launched its Aristotle mainnet with 100+ partners activated on day one.
+                </p>
+                <p>
+                    Before 0G, Jake spent three years at Chainlink Labs leading go-to-market for data products that contributed to over $1 trillion in Total Value Secured across the Web3 ecosystem. He's been building in crypto since 2017, when he co-founded the Miami University Blockchain Club — one of the first university-level blockchain organizations in the Midwest.
+                </p>
+                <p>
+                    Jake is a Miami University alum with degrees in Architecture and Entrepreneurship from the Farmer School of Business. He's based in Austin, Texas.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <div class="stat-number">350+</div>
+                    <div class="stat-label">Ecosystem integrations at 0G</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$1T+</div>
+                    <div class="stat-label">TVS supported at Chainlink</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years in crypto & Web3</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Mainnet launch partners</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Experience -->
+    <section id="experience" class="fade-in">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Career</h2>
+        <div class="experience-grid">
+            <div class="experience-item">
+                <div class="experience-period">2024 — Present</div>
+                <div class="experience-details">
+                    <h3>VP of Go-to-Market</h3>
+                    <div class="experience-company">0G Labs</div>
+                    <p class="experience-desc">Leading GTM strategy, ecosystem development, and partnerships for the first decentralized AI operating system. Built and scaled the BD team driving 350+ integrations across modular AI infrastructure including storage, compute, and data availability.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-period">2021 — 2024</div>
+                <div class="experience-details">
+                    <h3>Head of Data — GTM</h3>
+                    <div class="experience-company">Chainlink Labs</div>
+                    <p class="experience-desc">Led go-to-market strategy for Chainlink's data products. Progressed through roles from Analyst to Strategic Sales Specialist to Account Executive to Head of Data GTM, contributing to over $1 trillion in Total Value Secured.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-period">2017 — 2020</div>
+                <div class="experience-details">
+                    <h3>Co-Founder & VP of Marketing</h3>
+                    <div class="experience-company">Miami University Blockchain Club</div>
+                    <p class="experience-desc">Co-founded one of the first university blockchain organizations in the Midwest. Led marketing, organized conferences, and built partnerships to bring blockchain education to campus.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-period">2017 — 2019</div>
+                <div class="experience-details">
+                    <h3>Co-Founder & Editor-in-Chief</h3>
+                    <div class="experience-company">The Block Tribune</div>
+                    <p class="experience-desc">Co-founded and scaled a blockchain media publication, growing readership and covering emerging trends in cryptocurrency and decentralized technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Speaking -->
+    <section id="speaking" class="fade-in">
+        <span class="section-label">Speaking</span>
+        <h2 class="section-title">Featured talks & panels</h2>
+        <div class="speaking-grid">
+            <a href="https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025" class="speaking-card" target="_blank" rel="noopener">
+                <div class="speaking-event">TOKEN2049 Singapore</div>
+                <div class="speaking-title">AI Without Limits</div>
+                <div class="speaking-meta">With Ming Wu, CTO of 0G Labs &middot; 2025</div>
+            </a>
+            <div class="speaking-card">
+                <div class="speaking-event">ETHDenver — The Scaling Summit</div>
+                <div class="speaking-title">The End of Blind Faith</div>
+                <div class="speaking-meta">AI trust, verification & decentralized infrastructure &middot; 2026</div>
+            </div>
+            <div class="speaking-card">
+                <div class="speaking-event">Consensus 2025 — Toronto</div>
+                <div class="speaking-title">GPUs to AI Agents: Scaling AI Without Big Tech</div>
+                <div class="speaking-meta">Panel with Galxe, TheoriqAI & Copus &middot; 2025</div>
+            </div>
+            <a href="https://luma.com/g4553kdo" class="speaking-card" target="_blank" rel="noopener">
+                <div class="speaking-event">Miami University Blockchain Club</div>
+                <div class="speaking-title">Breaking into the Future of AI & Web3</div>
+                <div class="speaking-meta">Fireside chat &middot; 2025</div>
+            </a>
+            <div class="speaking-card">
+                <div class="speaking-event">InnovateDenver</div>
+                <div class="speaking-title">Crypto × AI: State of the Market</div>
+                <div class="speaking-meta">Panel discussion &middot; 2025</div>
+            </div>
+            <a href="https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control" class="speaking-card" target="_blank" rel="noopener">
+                <div class="speaking-event">TheStreet Roundtable</div>
+                <div class="speaking-title">Breaking Big Tech's AI Control</div>
+                <div class="speaking-meta">Interview &middot; February 2026</div>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Press -->
+    <section id="press" class="fade-in">
+        <span class="section-label">Press & Media</span>
+        <h2 class="section-title">In the news</h2>
+        <div class="press-grid">
+            <a href="https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control" class="press-item" target="_blank" rel="noopener">
+                <div>
+                    <div class="press-source">TheStreet</div>
+                    <div class="press-title">0G Labs' Jake Salerno Reveals New Plan to Break Big Tech AI Control</div>
+                </div>
+                <span class="press-arrow">→</span>
+            </a>
+            <a href="https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure" class="press-item" target="_blank" rel="noopener">
+                <div>
+                    <div class="press-source">0G Labs Blog</div>
+                    <div class="press-title">0G Adopts Chainlink Data Streams and Integrates CCIP</div>
+                </div>
+                <span class="press-arrow">→</span>
+            </a>
+            <a href="https://academy.swissborg.com/en/learn/0g-labs-investment-thesis" class="press-item" target="_blank" rel="noopener">
+                <div>
+                    <div class="press-source">SwissBorg Academy</div>
+                    <div class="press-title">0G Labs — The First Decentralised AI Operating System</div>
+                </div>
+                <span class="press-arrow">→</span>
+            </a>
+            <a href="https://iq.wiki/wiki/jake-salerno" class="press-item" target="_blank" rel="noopener">
+                <div>
+                    <div class="press-source">IQ.wiki</div>
+                    <div class="press-title">Jake Salerno — People in Crypto</div>
+                </div>
+                <span class="press-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section fade-in">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Let's connect</h2>
+        <p class="contact-description">
+            Open to speaking opportunities, partnerships, and conversations about the future of decentralized AI.
+        </p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/jakesalerno/" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                LinkedIn
+            </a>
+            <a href="https://x.com/JakeSalerno" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                @JakeSalerno
+            </a>
+            <a href="mailto:JakeSalerno@gmail.com">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                Email
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jake Salerno. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll Animations -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
