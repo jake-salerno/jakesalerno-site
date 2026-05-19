@@ -254,7 +254,7 @@
         .section-label {
             font-size: 0.7rem;
             font-weight: 600;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--text-secondary);
             margin-bottom: 1rem;
@@ -507,6 +507,299 @@
             border-top: 1px solid var(--border);
         }
 
+        /* ---- GALLERY (event photos + speaker cards) ---- */
+        .gallery-intro {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            max-width: 640px;
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery-grid {
+            display: grid;
+            gap: 0.75rem;
+            margin-top: 2rem;
+        }
+
+        .gallery-grid.gallery-photos {
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+
+        .gallery-grid.gallery-cards {
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 3px;
+            cursor: pointer;
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+        }
+
+        .gallery-grid.gallery-photos .gallery-item {
+            aspect-ratio: 4 / 3;
+        }
+
+        .gallery-grid.gallery-cards .gallery-item {
+            aspect-ratio: 16 / 10;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img,
+        .gallery-item:focus-visible img {
+            transform: scale(1.03);
+        }
+
+        .gallery-caption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1.25rem 0.875rem 0.75rem;
+            background: linear-gradient(to top, rgba(10, 10, 8, 0.85), rgba(10, 10, 8, 0));
+            color: var(--white);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+            opacity: 0;
+            transition: opacity 0.25s ease;
+            pointer-events: none;
+        }
+
+        .gallery-item:hover .gallery-caption,
+        .gallery-item:focus-visible .gallery-caption {
+            opacity: 1;
+        }
+
+        .gallery-empty {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            padding: 2rem 0;
+            text-align: center;
+            border: 1px dashed var(--border);
+            border-radius: 3px;
+            margin-top: 2rem;
+        }
+
+        /* ---- LIGHTBOX ---- */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 8, 0.94);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 1.25rem;
+        }
+
+        .lightbox.open {
+            display: flex;
+        }
+
+        .lightbox-inner {
+            max-width: min(1100px, 100%);
+            max-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .lightbox-img {
+            max-width: 100%;
+            max-height: calc(100vh - 10rem);
+            object-fit: contain;
+            border-radius: 3px;
+        }
+
+        .lightbox-caption {
+            color: var(--white);
+            font-size: 0.9rem;
+            letter-spacing: 0.02em;
+            text-align: center;
+            opacity: 0.85;
+        }
+
+        .lightbox-btn {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: var(--white);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+            transition: background 0.2s ease;
+            font-family: inherit;
+        }
+
+        .lightbox-btn:hover {
+            background: rgba(255, 255, 255, 0.18);
+        }
+
+        .lightbox-close {
+            top: 1.25rem;
+            right: 1.25rem;
+        }
+
+        .lightbox-prev {
+            top: 50%;
+            left: 1.25rem;
+            transform: translateY(-50%);
+        }
+
+        .lightbox-next {
+            top: 50%;
+            right: 1.25rem;
+            transform: translateY(-50%);
+        }
+
+        /* ---- PRESS SUBSECTIONS ---- */
+        .press-subsection {
+            margin-top: 2.5rem;
+        }
+
+        .press-subsection:first-child {
+            margin-top: 2rem;
+        }
+
+        .press-subhead {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        /* ---- HERO SKILL PILLS ---- */
+        .hero-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            max-width: 480px;
+        }
+
+        .skill-pill {
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: var(--text-secondary);
+            padding: 0.3rem 0.7rem;
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            background: var(--white);
+        }
+
+        /* ---- SHOW MORE BUTTON ---- */
+        .show-more-wrap {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .show-more-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text);
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background 0.2s ease;
+        }
+
+        .show-more-btn:hover {
+            border-color: var(--text);
+            background: var(--white);
+        }
+
+        .gallery-grid .gallery-extra {
+            display: none;
+        }
+
+        .gallery-grid.show-all .gallery-extra {
+            display: block;
+        }
+
+        /* ---- HONORS ---- */
+        .honors-grid {
+            display: grid;
+            gap: 0;
+            margin-top: 2rem;
+        }
+
+        .honor-item {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 2rem;
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .honor-item:first-child {
+            border-top: 1px solid var(--border);
+        }
+
+        .honor-year {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            padding-top: 0.15rem;
+        }
+
+        .honor-title {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        /* ---- FEATURED HIGHLIGHTS (within Media section) ---- */
+        .featured-highlights .press-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 0.5rem 1.5rem;
+        }
+
+        .featured-highlights .press-item {
+            border-bottom: 1px solid var(--border);
+        }
+
+        @media (max-width: 700px) {
+            .featured-highlights .press-grid {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            .honor-item {
+                grid-template-columns: 1fr;
+                gap: 0.25rem;
+            }
+        }
+
         /* ---- ANIMATIONS ---- */
         .fade-in {
             opacity: 0;
@@ -563,8 +856,25 @@
                 grid-template-columns: 1fr;
             }
 
+            .gallery-grid.gallery-photos,
+            .gallery-grid.gallery-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
             .nav-links {
                 display: none;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .gallery-grid.gallery-photos,
+            .gallery-grid.gallery-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .lightbox-btn {
+                width: 38px;
+                height: 38px;
             }
         }
 
@@ -601,7 +911,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#speaking">Speaking</a></li>
-            <li><a href="#press">Press</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#press">Media</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -613,11 +924,18 @@
                 <span class="hero-tag">Blockchain &times; AI Infrastructure</span>
                 <h1>Jake Salerno</h1>
                 <p class="hero-description">
-                    VP of Go-to-Market at <strong>0G Labs</strong>, building the first decentralized AI operating system. Previously at Chainlink Labs. Speaker, strategist, and builder working to make AI a public good.
+                    Vice President of Go-to-Market at <strong>0G Labs</strong>, building the first decentralized AI operating system. Previously at Chainlink Labs. Speaker, strategist, and builder on a mission to make AI a public good.
                 </p>
+                <div class="hero-skills">
+                    <span class="skill-pill">Blockchain</span>
+                    <span class="skill-pill">Artificial Intelligence</span>
+                    <span class="skill-pill">Business Development</span>
+                    <span class="skill-pill">Infrastructure</span>
+                    <span class="skill-pill">Strategic Partnerships</span>
+                </div>
                 <div class="hero-links">
-                    <a href="https://www.linkedin.com/in/jakesalerno/" class="btn-primary" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://x.com/JakeSalerno" class="btn-secondary" target="_blank" rel="noopener">@JakeSalerno</a>
+                    <a href="https://www.linkedin.com/in/jakesalerno/" class="btn-primary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://x.com/JakeSalerno" class="btn-secondary" target="_blank" rel="noopener noreferrer">@JakeSalerno</a>
                 </div>
             </div>
             <div class="hero-image-wrapper">
@@ -635,10 +953,10 @@
         <div class="about-content">
             <div class="about-text">
                 <p>
-                    Jake Salerno is the VP of Go-to-Market at 0G Labs, where he built and leads the team responsible for ecosystem growth, partnerships, and go-to-market strategy for the first decentralized AI operating system.
+                    Jake Salerno is Vice President of Go-to-Market at 0G Labs, building go-to-market strategy for decentralized AI infrastructure with a mission to make AI a public good.
                 </p>
                 <p>
-                    Since joining 0G in 2024, Jake has helped scale the ecosystem to over 350 integrations, shaping how AI and Web3 connect across modular infrastructure. Under his leadership, 0G launched its Aristotle mainnet with 100+ partners activated on day one.
+                    Jake joined 0G in 2024 as part of the founding team and Head of Business Development, then took the GTM lead as the company grew. Since launch, the ecosystem has scaled to 350+ integrations, shaping how AI and Web3 connect across modular infrastructure. 0G's Aristotle mainnet went live with 100+ partners activated on day one.
                 </p>
                 <p>
                     Before 0G, Jake spent three years at Chainlink Labs leading go-to-market for data products that contributed to over $1 trillion in Total Value Secured across the Web3 ecosystem. He's been building in crypto since 2017, when he co-founded the Miami University Blockchain Club — one of the first university-level blockchain organizations in the Midwest.
@@ -676,11 +994,19 @@
         <h2 class="section-title">Career</h2>
         <div class="experience-grid">
             <div class="experience-item">
-                <div class="experience-period">2024 — Present</div>
+                <div class="experience-period">2026 — Present</div>
                 <div class="experience-details">
-                    <h3>VP of Go-to-Market</h3>
+                    <h3>Vice President, Go-to-Market</h3>
                     <div class="experience-company">0G Labs</div>
-                    <p class="experience-desc">Leading GTM strategy, ecosystem development, and partnerships for the first decentralized AI operating system. Built and scaled the BD team driving 350+ integrations across modular AI infrastructure including storage, compute, and data availability.</p>
+                    <p class="experience-desc">Leading GTM strategy, ecosystem growth, and partnerships for the first decentralized AI operating system. Oversees the team driving 350+ integrations across modular AI infrastructure — storage, compute, and data availability.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-period">2024 — 2025</div>
+                <div class="experience-details">
+                    <h3>Founding Team · Head of Business Development</h3>
+                    <div class="experience-company">0G Labs</div>
+                    <p class="experience-desc">Joined as part of the founding team. Built the BD motion from zero — establishing the playbooks, partnerships, and pipeline that activated 100+ launch partners ahead of the Aristotle mainnet.</p>
                 </div>
             </div>
             <div class="experience-item">
@@ -716,75 +1042,58 @@
     <section id="speaking" class="fade-in">
         <span class="section-label">Speaking</span>
         <h2 class="section-title">Featured talks & panels</h2>
-        <div class="speaking-grid">
-            <a href="https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025" class="speaking-card" target="_blank" rel="noopener">
-                <div class="speaking-event">TOKEN2049 Singapore</div>
-                <div class="speaking-title">AI Without Limits</div>
-                <div class="speaking-meta">With Ming Wu, CTO of 0G Labs &middot; 2025</div>
-            </a>
-            <div class="speaking-card">
-                <div class="speaking-event">ETHDenver — The Scaling Summit</div>
-                <div class="speaking-title">The End of Blind Faith</div>
-                <div class="speaking-meta">AI trust, verification & decentralized infrastructure &middot; 2026</div>
-            </div>
-            <div class="speaking-card">
-                <div class="speaking-event">Consensus 2025 — Toronto</div>
-                <div class="speaking-title">GPUs to AI Agents: Scaling AI Without Big Tech</div>
-                <div class="speaking-meta">Panel with Galxe, TheoriqAI & Copus &middot; 2025</div>
-            </div>
-            <a href="https://luma.com/g4553kdo" class="speaking-card" target="_blank" rel="noopener">
-                <div class="speaking-event">Miami University Blockchain Club</div>
-                <div class="speaking-title">Breaking into the Future of AI & Web3</div>
-                <div class="speaking-meta">Fireside chat &middot; 2025</div>
-            </a>
-            <div class="speaking-card">
-                <div class="speaking-event">InnovateDenver</div>
-                <div class="speaking-title">Crypto × AI: State of the Market</div>
-                <div class="speaking-meta">Panel discussion &middot; 2025</div>
-            </div>
-            <a href="https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control" class="speaking-card" target="_blank" rel="noopener">
-                <div class="speaking-event">TheStreet Roundtable</div>
-                <div class="speaking-title">Breaking Big Tech's AI Control</div>
-                <div class="speaking-meta">Interview &middot; February 2026</div>
-            </a>
-        </div>
+        <div class="speaking-grid" data-render="speaking"></div>
     </section>
 
     <div class="section-divider"></div>
 
-    <!-- Press -->
+    <!-- Event Photos -->
+    <section id="photos" class="fade-in">
+        <span class="section-label">From the Stage</span>
+        <h2 class="section-title">Event photos</h2>
+        <p class="gallery-intro">A working archive of recent panels, talks, and fireside chats. Click any photo to expand.</p>
+        <div class="gallery-grid gallery-photos" data-render="event-photos"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Event Features & Speaker Cards -->
+    <section id="speaker-cards" class="fade-in">
+        <span class="section-label">Event Features</span>
+        <h2 class="section-title">Event features & speaker cards</h2>
+        <p class="gallery-intro">Speaker cards, panel announcements, and event graphics from across the circuit.</p>
+        <div class="gallery-grid gallery-cards" data-render="speaker-cards"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Media & Appearances -->
     <section id="press" class="fade-in">
-        <span class="section-label">Press & Media</span>
-        <h2 class="section-title">In the news</h2>
-        <div class="press-grid">
-            <a href="https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control" class="press-item" target="_blank" rel="noopener">
-                <div>
-                    <div class="press-source">TheStreet</div>
-                    <div class="press-title">0G Labs' Jake Salerno Reveals New Plan to Break Big Tech AI Control</div>
-                </div>
-                <span class="press-arrow">→</span>
-            </a>
-            <a href="https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure" class="press-item" target="_blank" rel="noopener">
-                <div>
-                    <div class="press-source">0G Labs Blog</div>
-                    <div class="press-title">0G Adopts Chainlink Data Streams and Integrates CCIP</div>
-                </div>
-                <span class="press-arrow">→</span>
-            </a>
-            <a href="https://academy.swissborg.com/en/learn/0g-labs-investment-thesis" class="press-item" target="_blank" rel="noopener">
-                <div>
-                    <div class="press-source">SwissBorg Academy</div>
-                    <div class="press-title">0G Labs — The First Decentralised AI Operating System</div>
-                </div>
-                <span class="press-arrow">→</span>
-            </a>
-            <a href="https://iq.wiki/wiki/jake-salerno" class="press-item" target="_blank" rel="noopener">
-                <div>
-                    <div class="press-source">IQ.wiki</div>
-                    <div class="press-title">Jake Salerno — People in Crypto</div>
-                </div>
-                <span class="press-arrow">→</span>
-            </a>
+        <span class="section-label">Media & Appearances</span>
+        <h2 class="section-title">Media & appearances</h2>
+        <p class="gallery-intro">Selected press, interviews, podcasts, conference pages, and recordings covering decentralized AI, Web3 infrastructure, and 0G.</p>
+        <div data-render="press-subsections"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Selected Honors -->
+    <section id="honors" class="fade-in">
+        <span class="section-label">Selected Honors</span>
+        <h2 class="section-title">Recognition</h2>
+        <div class="honors-grid">
+            <div class="honor-item">
+                <div class="honor-year">2019</div>
+                <div class="honor-title">Forbes Under 30 Scholar</div>
+            </div>
+            <div class="honor-item">
+                <div class="honor-year">2018</div>
+                <div class="honor-title">Business Model Road Test Pitch Competition — 1st Place</div>
+            </div>
+            <div class="honor-item">
+                <div class="honor-year">2018</div>
+                <div class="honor-title">Outstanding Individual Performance as a Presenter</div>
+            </div>
         </div>
     </section>
 
@@ -798,11 +1107,11 @@
             Open to speaking opportunities, partnerships, and conversations about the future of decentralized AI.
         </p>
         <div class="contact-links">
-            <a href="https://www.linkedin.com/in/jakesalerno/" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/jakesalerno/" target="_blank" rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 LinkedIn
             </a>
-            <a href="https://x.com/JakeSalerno" target="_blank" rel="noopener">
+            <a href="https://x.com/JakeSalerno" target="_blank" rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 @JakeSalerno
             </a>
@@ -818,8 +1127,360 @@
         <p>&copy; 2026 Jake Salerno. All rights reserved.</p>
     </footer>
 
-    <!-- Scroll Animations -->
+    <!-- Lightbox -->
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+        <button class="lightbox-btn lightbox-close" type="button" aria-label="Close">&times;</button>
+        <button class="lightbox-btn lightbox-prev" type="button" aria-label="Previous">&larr;</button>
+        <button class="lightbox-btn lightbox-next" type="button" aria-label="Next">&rarr;</button>
+        <div class="lightbox-inner">
+            <img class="lightbox-img" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- ===================================================================
+         MEDIA & SPEAKING DATA
+         To add a new item: append to the relevant array below. Items are
+         sorted newest-first at render time using sortDate.
+
+         Sort precedence: sortDate ?? date ?? year (descending). Year-only
+         items sort AFTER same-year exact-date items because "2026" sorts
+         before "2026-XX-XX" lexicographically (descending makes dated win).
+         Items with no date/year/sortDate fall to the bottom.
+
+         Schemas:
+         - speakingAppearances / speakerCards:
+             { event, title, role?, location?, date?, year?, sortDate?,
+               image?, url?, featured? }
+         - eventPhotos:
+             { event?, title, location?, date?, year?, sortDate?,
+               image, caption?, featured? }
+         - mediaResources:
+             { title, source, category, format, url, date?, year?,
+               sortDate?, featured? }
+           category: 'press' | 'conference' | 'podcast' | 'youtube' | 'x-video'
+           format:   'article' | 'speaker-page' | 'podcast' | 'x-space'
+                   | 'youtube' | 'x-video'
+         =================================================================== -->
     <script>
+        // ---------- Speaking Appearances (no image) ----------
+        const speakingAppearances = [
+            { event: 'ETHDenver — The Scaling Summit', title: 'The End of Blind Faith', role: 'AI trust, verification & decentralized infrastructure', location: 'Denver, CO', year: '2026' },
+            { event: 'TheStreet Roundtable', title: "Breaking Big Tech's AI Control", role: 'Interview at ETHDenver 2026', location: 'Denver, CO', year: '2026', url: 'https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control' },
+            { event: 'TOKEN2049 Singapore', title: 'AI Without Limits', role: 'With Ming Wu, CTO of 0G Labs', location: 'Singapore', date: '2025-10-01', year: '2025', url: 'https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025' },
+            { event: 'Consensus — Toronto', title: 'GPUs to AI Agents: Scaling AI Without Big Tech', role: 'Panel with Galxe, TheoriqAI & Copus', location: 'Toronto', date: '2025-05-14', year: '2025' },
+            { event: 'InnovateDenver', title: 'Crypto × AI: State of the Market', role: 'Panel discussion', location: 'Denver, CO', year: '2025' },
+            { event: 'Miami University Blockchain Club', title: 'Breaking into the Future of AI & Web3', role: 'Fireside chat', year: '2025', url: 'https://luma.com/g4553kdo' }
+        ];
+
+        // ---------- Event Photos (primary visual) ----------
+        const eventPhotos = [
+            // 2026 — exact-date verified (filename or explicit instruction)
+            { event: 'Builder Nights — Multichain', title: 'On stage panel', date: '2026-05-13', year: '2026', image: 'builder-nights-multichain-panel.webp' },
+            { event: 'Consensus — House of AI', title: 'Hot Seat: AI knows more about you than your therapist', location: 'Toronto', date: '2026-05-04', year: '2026', image: 'consensus-house-of-ai-hot-seat.webp', featured: true },
+            { event: 'Consensus — House of AI', title: 'After the talk', location: 'Toronto', date: '2026-05-04', year: '2026', image: 'consensus-house-of-ai-networking.webp' },
+            { event: 'Bass Denver', title: 'Stanford Blockchain Accelerator fireside', location: 'Denver, CO', date: '2026-02-17', year: '2026', image: 'bass-denver-fireside.webp', featured: true },
+            { event: 'InnovateDenver', title: 'AI × Crypto: Essential Fusion or Forced Marriage?', location: 'Denver, CO', date: '2026-02-16', year: '2026', image: 'innovate-denver-ai-crypto-panel.webp', featured: true },
+            // 2026 — year only (ETHDenver side events; exact dates not verified)
+            { event: 'ETHDenver — Scaling Summit', title: 'The End of Blind Faith talk', location: 'Denver, CO', year: '2026', image: 'ethdenver-end-of-blind-faith-talk.webp', featured: true },
+            { event: 'ETHDenver — TheStreet Roundtable', title: 'Interview with Jackson Hinkle', location: 'Denver, CO', year: '2026', image: 'ethdenver-thestreet-interview.webp' },
+            { event: 'Tectonic', title: 'Panel', location: 'Denver, CO', year: '2026', image: 'tectonic-panel-wide.webp' },
+            { event: 'Open AGI Summit', title: 'Privacy, Security & Open Source AI panel', location: 'Denver, CO', year: '2026', image: 'open-agi-summit-panel.webp', featured: true },
+            { event: 'Prosperia', title: 'Panel', year: '2026', image: 'prosperia-panel.webp' },
+            { event: 'Prosperia', title: 'Speaking', year: '2026', image: 'prosperia-speaking-closeup.webp' },
+            { event: 'Zero Coding with 0G', title: 'Event night', year: '2026', image: 'zero-coding-0g-event.webp' },
+            { event: 'Zero Coding with 0G', title: 'Winners — $500,000 prize', year: '2026', image: 'zero-coding-0g-winners.webp' },
+            // 2025 — exact-date verified (event public dates)
+            { event: 'TOKEN2049 Singapore', title: 'On stage wide', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'token2049-singapore-stage-wide.webp', featured: true },
+            { event: 'TOKEN2049 Singapore', title: 'With Ming Wu', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'token2049-singapore-couch.webp' },
+            { event: 'TOKEN2049 Singapore', title: 'Speaking close-up', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'token2049-singapore-speaking-closeup.webp' },
+            { event: 'TOKEN2049 Singapore', title: 'Listening close-up', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'token2049-singapore-listening.webp' },
+            { event: 'TOKEN2049 Singapore', title: 'Audience view', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'token2049-singapore-audience.webp' },
+            { event: 'NextGen at TOKEN2049', title: 'Panel', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'nextgen-token2049-panel.webp' },
+            { event: 'AI Frontier', title: 'Panel', date: '2025-09-30', year: '2025', image: 'ai-frontier-panel.webp', featured: true },
+            { event: 'AI Frontier', title: 'Speaking close-up', date: '2025-09-30', year: '2025', image: 'ai-frontier-speaking-closeup.webp' },
+            { event: 'Korea Blockchain Week — Stable Stage', title: 'Panel wide', location: 'Seoul', date: '2025-09-22', year: '2025', image: 'kbw-stable-stage-panel-wide.webp', featured: true },
+            { event: 'Korea Blockchain Week — Stable Stage', title: 'Speaking close-up', location: 'Seoul', date: '2025-09-22', year: '2025', image: 'kbw-stable-stage-speaking-closeup.webp' },
+            { event: 'Korea Blockchain Week — Stable Stage', title: 'Speaking portrait', location: 'Seoul', date: '2025-09-22', year: '2025', image: 'kbw-stable-stage-speaking-portrait.webp' },
+            { event: 'Consensus — Decentralized Compute for AI', title: 'On stage panel', location: 'Toronto', date: '2025-05-14', year: '2025', image: 'consensus-decentralized-compute-panel.webp', featured: true },
+            { event: 'Consensus — Decentralized Compute for AI', title: 'Group photo', location: 'Toronto', date: '2025-05-14', year: '2025', image: 'consensus-decentralized-compute-group.webp' },
+            // 2025 — year only
+            { event: 'CUDIS', title: 'Speaking', year: '2025', image: 'cudis-event-speaking.webp' },
+            { event: 'NodeOps — Proof of Build', title: 'Fireside with Naman Kabra', year: '2025', image: 'nodeops-fireside-chat.webp' },
+            { event: 'NodeOps — Modular Infra & AI at Scale', title: 'Outdoor panel', year: '2025', image: 'nodeops-modular-infra-panel.webp' },
+            { event: 'OnePiece Labs', title: 'Solo talk', year: '2025', image: 'onepiece-labs-talk.webp' },
+            { event: 'OnePiece Labs — Web3 University Tours', title: 'Panel', year: '2025', image: 'onepiece-labs-panel.webp' }
+        ];
+
+        // ---------- Speaker Cards & Event Features (secondary visual) ----------
+        const speakerCards = [
+            // 2026 — dated
+            { event: 'Builder Nights — Multichain Fest', title: 'Speaker card', date: '2026-05-13', year: '2026', image: 'builder-nights-multichain-speaker-card.webp' },
+            { event: 'Consensus — Schedule', title: 'Speaker schedule', location: 'Toronto', date: '2026-05-04', year: '2026', image: 'consensus-2026-schedule-card.webp' },
+            { event: 'Consensus — House of AI', title: 'Hot Seat', location: 'Toronto', date: '2026-05-04', year: '2026', image: 'house-of-ai-speaker-card.webp' },
+            { event: 'Consensus — Myosin × Stellar', title: 'Marketers in the Arena', location: 'Toronto', date: '2026-05-04', year: '2026', image: 'myosin-marketers-arena-card.webp' },
+            { event: 'EthCC[9] Cannes', title: 'AI Agents & Automation', location: 'Cannes, France', date: '2026-03-30', year: '2026', image: 'ethcc-cannes-ai-agents-card.webp' },
+            { event: 'EthCC Cannes — Keynote', title: 'Why Verification Should Be a 1st Class Citizen in AI', location: 'Cannes, France', date: '2026-03-30', year: '2026', image: 'ethcc-cannes-keynote-card.webp' },
+            { event: 'ETHDenver — Scaling Summit', title: 'Speaker card', location: 'Denver, CO', date: '2026-02-26', year: '2026', image: 'scaling-summit-speaker-card.webp' },
+            { event: 'Tectonic', title: 'Speaker card', location: 'Denver, CO', date: '2026-02-26', year: '2026', image: 'tectonic-speaker-card.webp' },
+            { event: 'Open AGI Summit', title: 'Speaker card', location: 'Denver, CO', date: '2026-02-25', year: '2026', image: 'open-agi-summit-speaker-card.webp' },
+            { event: 'Quantum Summit at ETHDenver', title: 'Where TEEs, FHE, MPC, and ZK Fit in a Quantum World', location: 'Denver, CO', date: '2026-02-25', year: '2026', image: 'quantum-summit-speaker-card.webp' },
+            { event: 'Bass Denver', title: 'Stanford Blockchain Accelerator', location: 'Denver, CO', date: '2026-02-17', year: '2026', image: 'bass-denver-speaker-card.webp' },
+            { event: 'InnovateDenver', title: 'Speaker card (by The Tie)', location: 'Denver, CO', date: '2026-02-16', year: '2026', image: 'innovate-denver-speaker-card.webp' },
+            // 2025 — dated
+            { event: 'NextGen at TOKEN2049', title: 'Speaker card', location: 'Singapore', date: '2025-10-01', year: '2025', image: 'nextgen-token2049-speaker-card.webp' },
+            { event: 'AI Frontier', title: 'Speaker card', date: '2025-09-30', year: '2025', image: 'ai-frontier-speaker-card.webp' },
+            { event: 'Korea Blockchain Week', title: 'Speaker card', location: 'Seoul', date: '2025-09-22', year: '2025', image: 'kbw-speaker-card.webp' },
+            { event: 'Galxe Starboard Roundtable', title: 'X Spaces roundtable', date: '2025-06-04', year: '2025', image: 'galxe-starboard-speaker-card.webp' },
+            { event: 'Consensus — Toronto', title: 'Speaker card', location: 'Toronto', date: '2025-05-14', year: '2025', image: 'consensus-speaker-card.webp' },
+            // 2025 — year only (best-effort year)
+            { event: 'Agents Unleashed', title: 'Speaker card', year: '2025', image: 'agents-unleashed-speaker-card.webp' },
+            { event: 'Autonomous AI', title: 'Speaker card', year: '2025', image: 'autonomous-ai-speaker-card.webp' },
+            { event: 'Alpha Edition', title: 'Speaker card', year: '2025', image: 'alpha-edition-speaker-card.webp' },
+            { event: 'Allora Forecast', title: 'Speaker card', year: '2025', image: 'allora-forecast-speaker-card.webp' },
+            { event: 'Bass Summit', title: 'Speaker card', year: '2025', image: 'bass-summit-speaker-card.webp' },
+            { event: 'Huddle01', title: 'Speaker card', year: '2025', image: 'huddle-01-speaker-card.webp' },
+            { event: 'NodeOps', title: 'Speaker card', year: '2025', image: 'nodeops-speaker-card.webp' },
+            { event: 'Plume', title: 'Speaker card', year: '2025', image: 'plume-speaker-card.webp' },
+            { event: 'Warden', title: 'Speaker card', year: '2025', image: 'warden-speaker-card.webp' },
+            { event: 'WAGMI Hub', title: 'Speaker card', year: '2025', image: 'wagmi-hub-speaker-card.webp' },
+            { event: 'Miami University Blockchain Club', title: 'Fireside', year: '2025', image: 'mubc-fireside-speaker-card.webp' },
+            { event: 'Miami Fireside', title: 'Speaker card', year: '2025', image: 'miami-fireside-speaker-card.webp' },
+            { event: 'UT Austin', title: 'Speaker card', year: '2025', image: 'ut-austin-speaker-card.webp' }
+        ];
+
+        // ---------- Media Resources (press + conference + podcast + youtube + x-video) ----------
+        const mediaResources = [
+            // ----- PRESS & ARTICLES -----
+            { title: '0G Labs Publishes Verification Framework for Decentralized AI Training as Models Cross 100 Billion Parameters', source: 'GlobeNewswire', category: 'press', format: 'article', url: 'https://www.globenewswire.com/news-release/2026/03/27/3264035/0/en/0g-labs-publishes-verification-framework-for-decentralized-ai-training-as-models-cross-100-billion-parameters.html', date: '2026-03-27', year: '2026' },
+            { title: "0G Labs' Jake Salerno Reveals New Plan to Break Big Tech AI Control", source: 'TheStreet', category: 'press', format: 'article', url: 'https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control', year: '2026' },
+            { title: 'ETHDenver 2026 Recap', source: '0G Labs Blog', category: 'press', format: 'article', url: 'https://0g.ai/blog/ethdenver-2026-recap', year: '2026' },
+            { title: 'EthCC Cannes 2026 Recap', source: '0G Labs Blog', category: 'press', format: 'article', url: 'https://0g.ai/blog/ethcc-cannes-2026-recap', year: '2026' },
+            { title: 'Consensus Toronto Recap', source: '0G Labs Blog', category: 'press', format: 'article', url: 'https://0g.ai/blog/consensus-toronto-recap', year: '2026' },
+            { title: 'Why Verification Matters in Decentralized AI Training', source: '0G Labs Blog', category: 'press', format: 'article', url: 'https://0g.ai/blog/why-verification-matters-decentralized-ai-training', year: '2026' },
+            { title: '0G Labs VP: Making Decentralised AI a Public Good', source: 'DL News', category: 'press', format: 'article', url: 'https://www.dlnews.com/research/internal/0g-labs-vp-making-decentralised-ai-public-good/' },
+            { title: 'Binance Square feature', source: 'Binance Square', category: 'press', format: 'article', url: 'https://www.binance.com/ar/square/post/295564986576898' },
+            { title: 'Khalani Goes Live on 0G', source: 'Khalani Network', category: 'press', format: 'article', url: 'https://blog.khalani.network/khalani-goes-live-on-0g' },
+            { title: '0G Adopts Chainlink Data Streams and Integrates CCIP', source: '0G Labs Blog', category: 'press', format: 'article', url: 'https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure' },
+            { title: '0G Labs — The First Decentralised AI Operating System', source: 'SwissBorg Academy', category: 'press', format: 'article', url: 'https://academy.swissborg.com/en/learn/0g-labs-investment-thesis' },
+            { title: 'Jake Salerno — People in Crypto', source: 'IQ.wiki', category: 'press', format: 'article', url: 'https://iq.wiki/wiki/jake-salerno' },
+
+            // ----- OFFICIAL CONFERENCE SPEAKER PAGES -----
+            { title: 'Jake Salerno — Speaker', source: 'EthCC Cannes', category: 'conference', format: 'speaker-page', url: 'https://ethcc.io/speakers/jake-salerno', date: '2026-03-30', year: '2026' },
+            { title: 'Jake Salerno — Speaker', source: 'ETHDenver', category: 'conference', format: 'speaker-page', url: 'https://ethdenver.com/speakers/jake-salerno/', date: '2026-02-23', year: '2026' },
+            { title: 'Speakers — ETHDenver 2026', source: 'ETHDenver', category: 'conference', format: 'speaker-page', url: 'https://ethdenver.com/speakers/', date: '2026-02-23', year: '2026' },
+            { title: 'Speakers — Denver 2026', source: 'InnovateDenver (The Tie)', category: 'conference', format: 'speaker-page', url: 'https://www.innovate.thetie.io/speakers-denver-2026', date: '2026-02-16', year: '2026' },
+            { title: 'Jake Salerno & Ming Wu — AI Without Limits', source: 'TOKEN2049 Singapore', category: 'conference', format: 'speaker-page', url: 'https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025', date: '2025-10-01', year: '2025' },
+            { title: 'Speakers 2025', source: 'Korea Blockchain Week', category: 'conference', format: 'speaker-page', url: 'https://koreablockchainweek.com/pages/2025-speakers', date: '2025-09-22', year: '2025' },
+
+            // ----- PODCASTS & X SPACES -----
+            { title: 'Starboard Roundtable', source: 'Galxe (X Spaces)', category: 'podcast', format: 'x-space', url: 'https://x.com/i/spaces/1BdGYqRBNlDGX?s=20', date: '2025-06-04', year: '2025' },
+            { title: 'The Allora Forecast Ep 1: AI agents, decentralized intelligence & what’s next', source: 'Allora (X Spaces)', category: 'podcast', format: 'x-space', url: 'https://x.com/i/spaces/1vAGRDWwXOaxl?s=20', year: '2025' },
+            { title: 'Artificial Intelligence: Best Real-World Web3 Use Cases', source: 'WAGMI Hub (X Spaces)', category: 'podcast', format: 'x-space', url: 'https://x.com/i/spaces/1OwxWNLLlpDJQ?s=20', year: '2025' },
+            { title: '71. This AI is a Money Printer: 0G’s Modular Stack', source: 'Apple Podcasts', category: 'podcast', format: 'podcast', url: 'https://podcasts.apple.com/us/podcast/71-this-ai-is-a-money-printer-0gs-modular-stack/id1772429181?i=1000732950578&l=zh-Hant-TW' },
+            { title: 'Podcast feature', source: 'YouTube', category: 'podcast', format: 'podcast', url: 'https://www.youtube.com/watch?v=aL2bbgfVMJU' },
+            { title: 'AI Unbundled: Web3 AI Pioneers AMA', source: 'Aethir (X Broadcast)', category: 'podcast', format: 'x-space', url: 'https://x.com/i/broadcasts/1YqJDZdVYMDKV?s=20' },
+            { title: 'Web3 Roundtable Space #6: AI & Web3 — Who Controls Your Data', source: 'Web3 Roundtable (X Spaces)', category: 'podcast', format: 'x-space', url: 'https://x.com/i/spaces/1rmGPyaqBljJN?s=20' },
+
+            // ----- YOUTUBE FEATURES -----
+            { title: 'Jake Salerno (0g.ai) — Why Verification Should Be a 1st Class Citizen in AI', source: 'EthCC', category: 'youtube', format: 'youtube', url: 'https://www.youtube.com/live/2F9A0KsG7iI?si=niAuSI75S8LOTgdC', date: '2026-03-30', year: '2026' },
+            { title: 'Privacy, Security & Open Source AI — Open AGI Summit', source: 'EthDenver / Open AGI Summit', category: 'youtube', format: 'youtube', url: 'https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp', date: '2026-02-25', year: '2026' },
+            { title: 'Where TEEs, FHE, MPC, and ZK Fit in a Quantum World', source: 'Quantum Summit at ETHDenver', category: 'youtube', format: 'youtube', url: 'https://www.youtube.com/watch?v=l9mK2y8O4Uw', date: '2026-02-25', year: '2026' },
+            { title: 'BASS Denver 2026: Fireside Chat', source: 'Stanford Blockchain Accelerator', category: 'youtube', format: 'youtube', url: 'https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280', date: '2026-02-17', year: '2026' },
+            { title: 'AI × Crypto: Essential Fusion or Forced Marriage?', source: 'Innovate Denver by The Tie', category: 'youtube', format: 'youtube', url: 'https://youtu.be/5lWa65tXrTA?si=cMvo-G9Wjz1FKlTm', date: '2026-02-16', year: '2026' },
+            { title: 'Jake Salerno and Ming Wu — 0G — AI Without Limits', source: 'TOKEN2049 Singapore', category: 'youtube', format: 'youtube', url: 'https://youtu.be/og4yujmUPvk?si=ZP8q2lJAI2Ebyqpo', date: '2025-10-01', year: '2025' },
+
+            // ----- X VIDEO RECORDINGS -----
+            { title: 'House of AI — The End of Blind Faith: Architecting Truth in the Age of Autonomy', source: '0G Labs (X)', category: 'x-video', format: 'x-video', url: 'https://x.com/0G_labs/status/2026990980164116547?s=20', date: '2026-02-26', year: '2026' },
+            { title: 'TGE: A Look Inside the War Room', source: 'ETHDenver Main Stage (X)', category: 'x-video', format: 'x-video', url: 'https://x.com/EthereumDenver/status/2024270563573977443?s=20', year: '2026' },
+            { title: 'Shipping Multichain: What Breaks Between Demo and Production', source: 'FP Block (X)', category: 'x-video', format: 'x-video', url: 'https://x.com/FP_Block/status/2055030392009138562?s=20' }
+        ];
+    </script>
+
+    <!-- ===================================================================
+         RENDERERS, LIGHTBOX, AND SCROLL ANIMATIONS
+         =================================================================== -->
+    <script>
+        const PHOTOS_PATH = '/images/event-photos/';
+        const CARDS_PATH = '/images/speaker-cards/';
+
+        // ---- Sort: newest first; year-only items follow same-year dated items;
+        //           items with no date/year/sortDate go to the bottom.
+        function sortNewestFirst(items) {
+            return [...items].sort((a, b) => {
+                const aKey = a.sortDate || a.date || a.year || '';
+                const bKey = b.sortDate || b.date || b.year || '';
+                if (!aKey && !bKey) return 0;
+                if (!aKey) return 1;
+                if (!bKey) return -1;
+                return bKey.localeCompare(aKey);
+            });
+        }
+
+        // ---- Caption / display helpers ----
+        function displayYear(item) {
+            if (item.year) return item.year;
+            if (item.date) return item.date.slice(0, 4);
+            return '';
+        }
+
+        function defaultCaption(item) {
+            if (item.caption) return item.caption;
+            const yr = displayYear(item);
+            const base = item.event || item.title || '';
+            return yr ? `${base} · ${yr}` : base;
+        }
+
+        // ---- Speaking cards ----
+        function renderSpeaking(items, container) {
+            sortNewestFirst(items).forEach(it => {
+                const card = document.createElement(it.url ? 'a' : 'div');
+                card.className = 'speaking-card';
+                if (it.url) {
+                    card.href = it.url;
+                    card.target = '_blank';
+                    card.rel = 'noopener';
+                }
+                const event = document.createElement('div');
+                event.className = 'speaking-event';
+                event.textContent = it.event;
+                const title = document.createElement('div');
+                title.className = 'speaking-title';
+                title.textContent = it.title;
+                const meta = document.createElement('div');
+                meta.className = 'speaking-meta';
+                const yr = displayYear(it);
+                meta.textContent = [it.role, yr].filter(Boolean).join(' · ');
+                card.append(event, title, meta);
+                container.appendChild(card);
+            });
+        }
+
+        // ---- Image gallery (photos + speaker cards share this) ----
+        function renderGallery(items, container, basePath) {
+            const sorted = sortNewestFirst(items);
+            sorted.forEach((it, i) => {
+                const cap = defaultCaption(it);
+                const cell = document.createElement('div');
+                cell.className = 'gallery-item';
+                cell.tabIndex = 0;
+                cell.setAttribute('role', 'button');
+                cell.setAttribute('aria-label', cap);
+                const img = document.createElement('img');
+                img.src = basePath + it.image;
+                img.alt = cap;
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                const capEl = document.createElement('div');
+                capEl.className = 'gallery-caption';
+                capEl.textContent = cap;
+                cell.append(img, capEl);
+                cell.addEventListener('click', () => lightbox.open(sorted, basePath, i));
+                cell.addEventListener('keydown', e => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        lightbox.open(sorted, basePath, i);
+                    }
+                });
+                container.appendChild(cell);
+            });
+        }
+
+        // ---- Press subsections (driven by mediaResources, filtered by category) ----
+        const pressCategories = [
+            { key: 'press',      label: 'Press & Articles' },
+            { key: 'conference', label: 'Official Conference Speaker Pages' },
+            { key: 'podcast',    label: 'Podcasts & X Spaces' },
+            { key: 'youtube',    label: 'YouTube Features' },
+            { key: 'x-video',    label: 'X Video Recordings' }
+        ];
+
+        function renderPressSubsection(parent, label, items) {
+            if (!items || !items.length) return;
+            const wrap = document.createElement('div');
+            wrap.className = 'press-subsection';
+            const head = document.createElement('div');
+            head.className = 'press-subhead';
+            head.textContent = label;
+            const list = document.createElement('div');
+            list.className = 'press-grid';
+            sortNewestFirst(items).forEach(it => {
+                const a = document.createElement('a');
+                a.className = 'press-item';
+                a.href = it.url;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                const left = document.createElement('div');
+                const src = document.createElement('div');
+                src.className = 'press-source';
+                const yr = displayYear(it);
+                src.textContent = yr ? `${it.source} · ${yr}` : it.source;
+                const ttl = document.createElement('div');
+                ttl.className = 'press-title';
+                ttl.textContent = it.title;
+                left.append(src, ttl);
+                const arrow = document.createElement('span');
+                arrow.className = 'press-arrow';
+                arrow.textContent = '→';
+                a.append(left, arrow);
+                list.appendChild(a);
+            });
+            wrap.append(head, list);
+            parent.appendChild(wrap);
+        }
+
+        // ---- Lightbox ----
+        const lightbox = {
+            el: null, img: null, caption: null,
+            items: [], basePath: '', index: 0,
+
+            init() {
+                this.el = document.querySelector('.lightbox');
+                this.img = this.el.querySelector('.lightbox-img');
+                this.caption = this.el.querySelector('.lightbox-caption');
+                this.el.querySelector('.lightbox-close').addEventListener('click', () => this.close());
+                this.el.querySelector('.lightbox-prev').addEventListener('click', e => { e.stopPropagation(); this.step(-1); });
+                this.el.querySelector('.lightbox-next').addEventListener('click', e => { e.stopPropagation(); this.step(1); });
+                this.el.addEventListener('click', e => { if (e.target === this.el) this.close(); });
+                document.addEventListener('keydown', e => {
+                    if (!this.el.classList.contains('open')) return;
+                    if (e.key === 'Escape') this.close();
+                    else if (e.key === 'ArrowLeft') this.step(-1);
+                    else if (e.key === 'ArrowRight') this.step(1);
+                });
+            },
+
+            open(items, basePath, index) {
+                this.items = items;
+                this.basePath = basePath;
+                this.index = index;
+                this.render();
+                this.el.classList.add('open');
+                this.el.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            },
+
+            close() {
+                this.el.classList.remove('open');
+                this.el.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            },
+
+            step(delta) {
+                this.index = (this.index + delta + this.items.length) % this.items.length;
+                this.render();
+            },
+
+            render() {
+                const it = this.items[this.index];
+                const cap = defaultCaption(it);
+                this.img.src = this.basePath + it.image;
+                this.img.alt = cap;
+                this.caption.textContent = cap;
+            }
+        };
+
+        // ---- Scroll animations ----
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -828,7 +1489,21 @@
             });
         }, { threshold: 0.1 });
 
-        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        // ---- Init ----
+        document.addEventListener('DOMContentLoaded', () => {
+            lightbox.init();
+            renderSpeaking(speakingAppearances, document.querySelector('[data-render="speaking"]'));
+            renderGallery(eventPhotos, document.querySelector('[data-render="event-photos"]'), PHOTOS_PATH);
+            renderGallery(speakerCards, document.querySelector('[data-render="speaker-cards"]'), CARDS_PATH);
+
+            const pressContainer = document.querySelector('[data-render="press-subsections"]');
+            pressCategories.forEach(({ key, label }) => {
+                const items = mediaResources.filter(m => m.category === key);
+                renderPressSubsection(pressContainer, label, items);
+            });
+
+            document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        });
     </script>
 </body>
 </html>
