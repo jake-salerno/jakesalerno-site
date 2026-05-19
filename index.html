@@ -822,6 +822,13 @@
             line-height: 1.5;
         }
 
+        .honor-meta {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.15rem;
+            line-height: 1.5;
+        }
+
         /* ---- FEATURED HIGHLIGHTS (within Media section) ---- */
         .featured-highlights .press-grid {
             display: grid;
@@ -1000,7 +1007,7 @@
                     Jake Salerno is Vice President of Go-to-Market at 0G Labs, building go-to-market strategy for decentralized AI infrastructure with a mission to make AI a public good.
                 </p>
                 <p>
-                    Jake joined 0G in 2024 as part of the founding team and Head of Business Development, then took the GTM lead as the company grew. Since launch, the ecosystem has scaled to 350+ integrations, shaping how AI and Web3 connect across modular infrastructure. 0G's Aristotle mainnet went live with 100+ partners activated on day one.
+                    Jake joined 0G in 2024 as part of the founding team and Head of Business Development, then took the GTM lead as the company grew. Since launch, the ecosystem has scaled to 400+ integrations, shaping how AI and Web3 connect across modular infrastructure. 0G's Aristotle mainnet went live with 100+ partners activated on day one.
                 </p>
                 <p>
                     Before 0G, Jake spent three years at Chainlink Labs leading go-to-market for data products that contributed to over $1 trillion in Total Value Secured across the Web3 ecosystem. He's been building in crypto since 2017, when he co-founded the Miami University Blockchain Club — one of the first university-level blockchain organizations in the Midwest.
@@ -1011,7 +1018,7 @@
             </div>
             <div class="about-stats">
                 <div class="stat">
-                    <div class="stat-number">350+</div>
+                    <div class="stat-number">400+</div>
                     <div class="stat-label">Ecosystem integrations at 0G</div>
                 </div>
                 <div class="stat">
@@ -1019,7 +1026,7 @@
                     <div class="stat-label">TVS supported at Chainlink</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">8+</div>
+                    <div class="stat-number">9+</div>
                     <div class="stat-label">Years in crypto & Web3</div>
                 </div>
                 <div class="stat">
@@ -1042,7 +1049,7 @@
                 <div class="experience-details">
                     <h3>Vice President, Go-to-Market</h3>
                     <div class="experience-company">0G Labs</div>
-                    <p class="experience-desc">Leading GTM strategy, ecosystem growth, and partnerships for the first decentralized AI operating system. Oversees the team driving 350+ integrations across modular AI infrastructure — storage, compute, and data availability.</p>
+                    <p class="experience-desc">Leading GTM strategy, ecosystem growth, and partnerships for the first decentralized AI operating system. Oversees the team driving 400+ integrations across modular AI infrastructure — storage, compute, and data availability.</p>
                 </div>
             </div>
             <div class="experience-item">
@@ -1106,17 +1113,17 @@
     <section id="photos" class="fade-in">
         <span class="section-label">From the Stage</span>
         <h2 class="section-title">Event photos</h2>
-        <p class="gallery-intro">A working archive of recent panels, talks, and fireside chats. Click any photo to expand.</p>
+        <p class="gallery-intro">Selected moments from recent panels, talks, fireside chats, and ecosystem events. Click any photo to expand.</p>
         <div class="gallery-grid gallery-photos" data-render="event-photos"></div>
     </section>
 
     <div class="section-divider"></div>
 
-    <!-- Event Features & Speaker Cards -->
+    <!-- Event Features -->
     <section id="speaker-cards" class="fade-in">
         <span class="section-label">Event Features</span>
-        <h2 class="section-title">Event features & speaker cards</h2>
-        <p class="gallery-intro">Speaker cards, panel announcements, and event graphics from across the circuit.</p>
+        <h2 class="section-title">Event Features</h2>
+        <p class="gallery-intro">Speaker cards, panel announcements, and event graphics from selected conferences and ecosystem events.</p>
         <div class="gallery-grid gallery-cards" data-render="speaker-cards"></div>
     </section>
 
@@ -1139,15 +1146,24 @@
         <div class="honors-grid">
             <div class="honor-item">
                 <div class="honor-year">2019</div>
-                <div class="honor-title">Forbes Under 30 Scholar</div>
+                <div>
+                    <div class="honor-title">Forbes Under 30 Scholar</div>
+                    <div class="honor-meta">Miami University</div>
+                </div>
             </div>
             <div class="honor-item">
                 <div class="honor-year">2018</div>
-                <div class="honor-title">Business Model Road Test Pitch Competition — 1st Place</div>
+                <div>
+                    <div class="honor-title">Business Model Road Test Pitch Competition — 1st Place</div>
+                    <div class="honor-meta">Farmer School of Business</div>
+                </div>
             </div>
             <div class="honor-item">
                 <div class="honor-year">2018</div>
-                <div class="honor-title">Outstanding Individual Performance as a Presenter</div>
+                <div>
+                    <div class="honor-title">Outstanding Individual Performance as a Presenter</div>
+                    <div class="honor-meta">Farmer School of Business</div>
+                </div>
             </div>
         </div>
     </section>
@@ -1220,8 +1236,8 @@
     <script>
         // ---------- Speaking Appearances (no image) ----------
         const speakingAppearances = [
+            { event: 'EthCC[9] Cannes', title: 'Why Verification Should Be a 1st Class Citizen in AI', role: 'Keynote', location: 'Cannes, France', date: '2026-03-30', year: '2026', url: 'https://ethcc.io/speakers/jake-salerno' },
             { event: 'ETHDenver — The Scaling Summit', title: 'The End of Blind Faith', role: 'AI trust, verification & decentralized infrastructure', location: 'Denver, CO', year: '2026' },
-            { event: 'TheStreet Roundtable', title: "Breaking Big Tech's AI Control", role: 'Interview at ETHDenver 2026', location: 'Denver, CO', year: '2026', url: 'https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control' },
             { event: 'TOKEN2049 Singapore', title: 'AI Without Limits', role: 'With Ming Wu, CTO of 0G Labs', location: 'Singapore', date: '2025-10-01', year: '2025', url: 'https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025' },
             { event: 'Consensus — Toronto', title: 'GPUs to AI Agents: Scaling AI Without Big Tech', role: 'Panel with Galxe, TheoriqAI & Copus', location: 'Toronto', date: '2025-05-14', year: '2025' },
             { event: 'InnovateDenver', title: 'Crypto × AI: State of the Market', role: 'Panel discussion', location: 'Denver, CO', year: '2025' },
