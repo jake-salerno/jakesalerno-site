@@ -1,0 +1,47 @@
+{
+  "/": {
+    "title": "Jake Salerno | Vice President of Go-to-Market at 0G Labs",
+    "description": "Jake Salerno leads commercial strategy, revenue growth, and ecosystem expansion at 0G Labs, the trust layer for AI. Previously at Chainlink Labs.",
+    "image": "/images/event-photos/token2049-singapore-speaking-closeup.webp"
+  },
+  "/photos/": {
+    "title": "Jake Salerno | On-stage photo archive",
+    "description": "Keynotes, panels, fireside conversations, and ecosystem events featuring Jake Salerno.",
+    "image": "/images/event-photos/token2049-singapore-speaking-closeup.webp"
+  },
+  "/event-features/": {
+    "title": "Jake Salerno | Speaker cards & event features",
+    "description": "Complete collection of speaker cards, conference appearances, and event announcements featuring Jake Salerno.",
+    "image": "/images/speaker-cards/dev-day-2026-speaker-card.webp"
+  },
+  "/media/": {
+    "title": "Jake Salerno | Talks, interviews & media archive",
+    "description": "Watch Jake Salerno\u2019s talks and conversations, listen to podcasts, and read interviews about AI and blockchain infrastructure.",
+    "image": "/images/event-photos/token2049-singapore-speaking-closeup.webp"
+  },
+  "/appearances/ethcc-2026/": {
+    "title": "Why Verification Should Be a 1st Class Citizen in AI | Jake Salerno",
+    "description": "At EthCC[9], Jake Salerno presented the case for treating verification as a core requirement of AI systems. The official session archive describes a talk about transparency, trust, and the risks of closed, centralized models.",
+    "image": "/images/speaker-cards/ethcc-cannes-keynote-card.webp"
+  },
+  "/appearances/scaling-summit-2026/": {
+    "title": "The End of Blind Faith | Jake Salerno",
+    "description": "Jake Salerno delivered \u201cThe End of Blind Faith\u201d at The Scaling Summit: House of AI during ETHDenver 2026. The 0G event recap identifies his keynote and its central principle: trust in AI should be supported by verification.",
+    "image": "/images/event-photos/ethdenver-end-of-blind-faith-talk.webp"
+  },
+  "/appearances/token2049-2025/": {
+    "title": "AI Without Limits: Scaling Intelligence on the Blockchain | Jake Salerno",
+    "description": "Jake Salerno and 0G co-founder and CTO Ming Wu explored the relationship between AI and blockchain in a joint keynote at TOKEN2049 Singapore. Jake guided the conversation from 0G\u2019s vision to its architecture, adoption, and plans for builders.",
+    "image": "/images/event-photos/token2049-singapore-speaking-closeup.webp"
+  },
+  "/appearances/0g-dev-day-2026/": {
+    "title": "Beyond Scale: Where Does AI Go From Here? | Jake Salerno",
+    "description": "At 0G Dev Day, Jake Salerno moderated \u201cBeyond Scale: Where Does AI Go From Here?\u201d with Scott Dernley, Airkin Wu, and Ismael Hishon-Rezaizadeh. The organizer\u2019s agenda lists the panel at National Gallery Singapore, beginning at 4:05 PM on October 5, 2026.",
+    "image": "/images/event-photos/dev-day-2026-speaking.webp"
+  },
+  "/appearances/agentic-finance-2026/": {
+    "title": "Agentic Finance: Autonomous Capital, Execution, and AI-Native Markets | Jake Salerno",
+    "description": "Jake Salerno joined the Multichain Day panel \u201cAgentic Finance: Autonomous Capital, Execution, and AI-Native Markets\u201d in Singapore with Charles de Pue and Dean Tribble. The session considered what changes when AI agents can execute financial transactions rather than only suggest them.",
+    "image": "/images/speaker-cards/multichain-day-2026-speaker-card.webp"
+  }
+}

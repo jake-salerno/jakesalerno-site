@@ -1,0 +1,1034 @@
+{
+  "/images/speaker-cards/house-of-ai-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-house-of-ai-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-house-of-ai-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/kbw-2026-featured-speaker.webp": {
+    "width": 1920,
+    "height": 1080,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-kbw-2026-featured-speaker-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-kbw-2026-featured-speaker-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/autonomous-ai-speaker-card.webp": {
+    "width": 1200,
+    "height": 658,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-autonomous-ai-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-autonomous-ai-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/huddle-01-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-huddle-01-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-huddle-01-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/myosin-marketers-arena-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-myosin-marketers-arena-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-myosin-marketers-arena-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/warden-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-warden-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-warden-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/alpha-edition-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-alpha-edition-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-alpha-edition-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/ai-frontier-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-ai-frontier-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-ai-frontier-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/mubc-fireside-speaker-card.webp": {
+    "width": 1080,
+    "height": 1080,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-mubc-fireside-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-mubc-fireside-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/ethcc-cannes-ai-agents-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-ethcc-cannes-ai-agents-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-ethcc-cannes-ai-agents-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/consensus-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-consensus-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-consensus-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/consensus-2026-schedule-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-consensus-2026-schedule-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-consensus-2026-schedule-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/galxe-starboard-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-galxe-starboard-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-galxe-starboard-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/nodeops-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-nodeops-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-nodeops-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/rare-evo-2026-speaker-card.webp": {
+    "width": 1080,
+    "height": 1080,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-rare-evo-2026-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-rare-evo-2026-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/builder-nights-multichain-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-builder-nights-multichain-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-builder-nights-multichain-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/ut-austin-speaker-card.webp": {
+    "width": 1200,
+    "height": 600,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-ut-austin-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-ut-austin-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/speaker-roster-jake-salerno.webp": {
+    "width": 1433,
+    "height": 961,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-speaker-roster-jake-salerno-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-speaker-roster-jake-salerno-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/allora-forecast-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-allora-forecast-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-allora-forecast-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/bass-summit-speaker-card.webp": {
+    "width": 1080,
+    "height": 1080,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-bass-summit-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-bass-summit-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/quantum-summit-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-quantum-summit-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-quantum-summit-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/multichain-day-2026-speaker-card.webp": {
+    "width": 2000,
+    "height": 1172,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-multichain-day-2026-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-multichain-day-2026-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/scaling-summit-speaker-card.webp": {
+    "width": 1200,
+    "height": 758,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-scaling-summit-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-scaling-summit-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/innovate-denver-speaker-card.webp": {
+    "width": 1200,
+    "height": 628,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-innovate-denver-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-innovate-denver-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/nextgen-token2049-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-nextgen-token2049-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-nextgen-token2049-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/agents-unleashed-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-agents-unleashed-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-agents-unleashed-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/kbw-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-kbw-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-kbw-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/ethcc-cannes-keynote-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-ethcc-cannes-keynote-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-ethcc-cannes-keynote-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/dev-day-2026-speaker-card.webp": {
+    "width": 1920,
+    "height": 1080,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-dev-day-2026-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-dev-day-2026-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/open-agi-summit-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-open-agi-summit-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-open-agi-summit-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/bass-denver-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-bass-denver-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-bass-denver-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/miami-fireside-speaker-card.webp": {
+    "width": 1200,
+    "height": 1600,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-miami-fireside-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-miami-fireside-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/wagmi-hub-speaker-card.webp": {
+    "width": 1200,
+    "height": 676,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-wagmi-hub-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-wagmi-hub-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/tectonic-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-tectonic-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-tectonic-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/speaker-cards/plume-speaker-card.webp": {
+    "width": 1200,
+    "height": 675,
+    "versions": [
+      {
+        "url": "/assets/responsive/speaker-cards-plume-speaker-card-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/speaker-cards-plume-speaker-card-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/onepiece-labs-talk.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-onepiece-labs-talk-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-onepiece-labs-talk-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/consensus-decentralized-compute-panel.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-consensus-decentralized-compute-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-consensus-decentralized-compute-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/kbw-2026-panel.webp": {
+    "width": 2000,
+    "height": 1334,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-kbw-2026-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-kbw-2026-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/zero-coding-0g-event.webp": {
+    "width": 1600,
+    "height": 900,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-zero-coding-0g-event-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-zero-coding-0g-event-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/dev-day-2026-panel.webp": {
+    "width": 2000,
+    "height": 1333,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-dev-day-2026-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-dev-day-2026-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/nextgen-token2049-panel.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-nextgen-token2049-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-nextgen-token2049-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/kbw-stable-stage-speaking-closeup.webp": {
+    "width": 1600,
+    "height": 2845,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-kbw-stable-stage-speaking-closeup-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-kbw-stable-stage-speaking-closeup-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/rare-evo-2026-panel.webp": {
+    "width": 2000,
+    "height": 1126,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-rare-evo-2026-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-rare-evo-2026-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/token2049-singapore-listening.webp": {
+    "width": 1600,
+    "height": 1068,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-listening-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-listening-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/builder-nights-multichain-panel.webp": {
+    "width": 1280,
+    "height": 853,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-builder-nights-multichain-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-builder-nights-multichain-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/open-agi-summit-panel.webp": {
+    "width": 1600,
+    "height": 1280,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-open-agi-summit-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-open-agi-summit-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/bass-denver-fireside.webp": {
+    "width": 1051,
+    "height": 1868,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-bass-denver-fireside-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-bass-denver-fireside-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/liquidity-evening-panel.webp": {
+    "width": 2000,
+    "height": 1126,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-liquidity-evening-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-liquidity-evening-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/kbw-stable-stage-panel-wide.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-kbw-stable-stage-panel-wide-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-kbw-stable-stage-panel-wide-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/token2049-singapore-speaking-closeup.webp": {
+    "width": 1600,
+    "height": 1068,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-speaking-closeup-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-speaking-closeup-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/token2049-singapore-stage-wide.webp": {
+    "width": 1600,
+    "height": 1068,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-stage-wide-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-stage-wide-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/ethdenver-end-of-blind-faith-talk.webp": {
+    "width": 1119,
+    "height": 746,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-ethdenver-end-of-blind-faith-talk-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-ethdenver-end-of-blind-faith-talk-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/rare-evo-2026-speaking.webp": {
+    "width": 2000,
+    "height": 1126,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-rare-evo-2026-speaking-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-rare-evo-2026-speaking-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/consensus-house-of-ai-hot-seat.webp": {
+    "width": 1600,
+    "height": 2845,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-consensus-house-of-ai-hot-seat-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-consensus-house-of-ai-hot-seat-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/nodeops-modular-infra-panel.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-nodeops-modular-infra-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-nodeops-modular-infra-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/kbw-stable-stage-speaking-portrait.webp": {
+    "width": 589,
+    "height": 1047,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-kbw-stable-stage-speaking-portrait-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/images/event-photos/token2049-singapore-couch.webp": {
+    "width": 1600,
+    "height": 1068,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-couch-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-couch-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/onepiece-labs-panel.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-onepiece-labs-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-onepiece-labs-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/consensus-decentralized-compute-group.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-consensus-decentralized-compute-group-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-consensus-decentralized-compute-group-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/tectonic-panel-wide.webp": {
+    "width": 1280,
+    "height": 960,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-tectonic-panel-wide-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-tectonic-panel-wide-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/zero-coding-0g-winners.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-zero-coding-0g-winners-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-zero-coding-0g-winners-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/prosperia-speaking-closeup.webp": {
+    "width": 1125,
+    "height": 2001,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-prosperia-speaking-closeup-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-prosperia-speaking-closeup-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/prosperia-panel.webp": {
+    "width": 1280,
+    "height": 960,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-prosperia-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-prosperia-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/ethdenver-thestreet-interview.webp": {
+    "width": 1600,
+    "height": 902,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-ethdenver-thestreet-interview-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-ethdenver-thestreet-interview-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/nodeops-fireside-chat.webp": {
+    "width": 1600,
+    "height": 1069,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-nodeops-fireside-chat-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-nodeops-fireside-chat-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/dev-day-2026-speaking.webp": {
+    "width": 2000,
+    "height": 1333,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-dev-day-2026-speaking-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-dev-day-2026-speaking-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/ai-frontier-panel.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-ai-frontier-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-ai-frontier-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/consensus-house-of-ai-networking.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-consensus-house-of-ai-networking-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-consensus-house-of-ai-networking-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/innovate-denver-ai-crypto-panel.webp": {
+    "width": 1600,
+    "height": 901,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-innovate-denver-ai-crypto-panel-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-innovate-denver-ai-crypto-panel-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/ai-frontier-speaking-closeup.webp": {
+    "width": 1600,
+    "height": 2844,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-ai-frontier-speaking-closeup-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-ai-frontier-speaking-closeup-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/token2049-singapore-audience.webp": {
+    "width": 1600,
+    "height": 2399,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-audience-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-token2049-singapore-audience-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/cudis-event-speaking.webp": {
+    "width": 1600,
+    "height": 1067,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-cudis-event-speaking-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-cudis-event-speaking-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/images/event-photos/kbw-2026-speaking.webp": {
+    "width": 2000,
+    "height": 1334,
+    "versions": [
+      {
+        "url": "/assets/responsive/event-photos-kbw-2026-speaking-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/event-photos-kbw-2026-speaking-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/headshot.jpeg": {
+    "width": 1280,
+    "height": 1280,
+    "versions": [
+      {
+        "url": "/assets/responsive/jakesalerno-site-headshot-480.webp",
+        "width": 480
+      },
+      {
+        "url": "/assets/responsive/jakesalerno-site-headshot-960.webp",
+        "width": 960
+      }
+    ]
+  }
+}
