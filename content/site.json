@@ -1,0 +1,1535 @@
+{
+  "speakingAppearances": [
+    {
+      "event": "EthCC[9] Cannes",
+      "title": "Why Verification Should Be a 1st Class Citizen in AI",
+      "role": "Keynote",
+      "location": "Cannes, France",
+      "date": "2026-04-01",
+      "year": "2026",
+      "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai",
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://www.youtube.com/watch?v=2F9A0KsG7iI"
+        },
+        {
+          "label": "View session archive",
+          "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai"
+        }
+      ],
+      "page": "/appearances/ethcc-2026/",
+      "editorialRank": 2,
+      "representativeImage": "/images/speaker-cards/ethcc-cannes-ai-agents-card.webp",
+      "visualAlt": "EthCC Cannes AI Agents and Automation artwork featuring Jake Salerno",
+      "visualFit": "contain"
+    },
+    {
+      "event": "InnovateDenver",
+      "title": "AI × Crypto: Essential Fusion or Forced Marriage? - InnovateDenver 2026",
+      "role": "Panel discussion",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "url": "https://www.youtube.com/watch?v=5lWa65tXrTA",
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://www.youtube.com/watch?v=5lWa65tXrTA"
+        },
+        {
+          "label": "View speaker profile",
+          "url": "https://www.innovate.thetie.io/speakers-denver-2026"
+        }
+      ]
+    },
+    {
+      "event": "ETHDenver — The Scaling Summit",
+      "title": "The End of Blind Faith",
+      "role": "Keynote",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "url": "https://x.com/0G_labs/status/2026990980164116547?s=20",
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://x.com/0G_labs/status/2026990980164116547?s=20"
+        },
+        {
+          "label": "Read event recap",
+          "url": "https://0g.ai/blog/ethdenver-2026-recap"
+        }
+      ],
+      "page": "/appearances/scaling-summit-2026/",
+      "editorialRank": 3,
+      "representativeImage": "/images/event-photos/ethdenver-end-of-blind-faith-talk.webp",
+      "visualAlt": "Jake Salerno presenting The End of Blind Faith at Scaling Summit in Denver",
+      "visualFit": "cover"
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "AI Without Limits",
+      "role": "Joint keynote with Ming Wu",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "url": "https://www.youtube.com/watch?v=og4yujmUPvk",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/",
+      "editorialRank": 1,
+      "representativeImage": "/images/event-photos/token2049-singapore-stage-wide.webp",
+      "visualAlt": "Jake Salerno and Ming Wu on the TOKEN2049 Singapore stage beneath the event signage",
+      "visualFit": "cover"
+    },
+    {
+      "event": "Consensus — Toronto",
+      "title": "GPUs to AI Agents: Scaling AI Without Big Tech",
+      "role": "Panel with Galxe, TheoriqAI & Copus",
+      "location": "Toronto",
+      "date": "2025-05-13",
+      "year": "2025",
+      "url": "https://0g.ai/blog/consensus-toronto-recap",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/consensus-toronto-recap"
+        }
+      ]
+    },
+    {
+      "event": "Miami University Blockchain Club",
+      "title": "Breaking into the Future of AI & Web3",
+      "role": "Fireside chat",
+      "date": "2025-10-23",
+      "year": "2025",
+      "url": "https://luma.com/g4553kdo",
+      "links": [
+        {
+          "label": "View event page",
+          "url": "https://luma.com/g4553kdo"
+        }
+      ]
+    },
+    {
+      "event": "0G Dev Day",
+      "title": "Beyond Scale: Where Does AI Go From Here?",
+      "role": "Moderator",
+      "date": "2026-10-05",
+      "year": "2026",
+      "location": "National Gallery Singapore",
+      "page": "/appearances/0g-dev-day-2026/",
+      "links": [
+        {
+          "label": "View agenda",
+          "url": "https://build.0g.ai/dev-day-2026"
+        }
+      ]
+    },
+    {
+      "event": "Multichain Day Singapore 2026",
+      "title": "Agentic Finance: Autonomous Capital, Execution, and AI-Native Markets",
+      "role": "Panelist",
+      "date": "2026-10-06",
+      "year": "2026",
+      "page": "/appearances/agentic-finance-2026/",
+      "links": [
+        {
+          "label": "Watch discussion",
+          "url": "https://www.youtube.com/watch?v=FEqSe1xZShQ"
+        },
+        {
+          "label": "View agenda",
+          "url": "https://luma.com/multichaindaysingapore"
+        }
+      ]
+    }
+  ],
+  "eventPhotos": [
+    {
+      "event": "Liquidity Evening",
+      "title": "Panel discussion",
+      "location": "Seoul, Korea",
+      "image": "liquidity-evening-panel.webp",
+      "caption": "Panel discussion at Liquidity Evening by Turtle, Seoul.",
+      "alt": "Jake Salerno speaking into a microphone and gesturing during a seated Liquidity Evening panel, with event branding projected behind the speakers",
+      "position": "65% center",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "0G Dev Day",
+      "title": "Beyond Scale: Where Does AI Go From Here?",
+      "role": "Moderator",
+      "location": "National Gallery Singapore",
+      "date": "2026-10-05",
+      "year": "2026",
+      "image": "dev-day-2026-speaking.webp",
+      "caption": "Moderating “Beyond Scale: Where Does AI Go From Here?” · 0G Dev Day · Singapore · October 5, 2026",
+      "alt": "Jake Salerno holding a microphone and gesturing while moderating the Beyond Scale panel at 0G Dev Day in Singapore",
+      "url": "https://build.0g.ai/dev-day-2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "View agenda",
+          "url": "https://build.0g.ai/dev-day-2026"
+        }
+      ],
+      "page": "/appearances/0g-dev-day-2026/",
+      "editorialRank": 2,
+      "homeCaption": "Moderating Beyond Scale · 0G Dev Day · Singapore · 2026"
+    },
+    {
+      "event": "KBW2026",
+      "title": "Panel discussion at KBW2026",
+      "year": "2026",
+      "image": "kbw-2026-speaking.webp",
+      "caption": "Panel discussion at KBW2026.",
+      "alt": "Jake Salerno speaking into a microphone beside another panelist on the KBW2026 stage",
+      "featured": true,
+      "links": [],
+      "editorialRank": 6,
+      "homeCaption": "Panel discussion · KBW2026"
+    },
+    {
+      "event": "Rare Evo 2026",
+      "title": "Speaking at Rare Evo 2026",
+      "location": "Las Vegas",
+      "year": "2026",
+      "image": "rare-evo-2026-speaking.webp",
+      "caption": "Speaking at Rare Evo 2026, Las Vegas.",
+      "alt": "Jake Salerno presenting beside a slide about verifiable private AI on the Rare Evo 2026 stage in Las Vegas",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "0G Dev Day",
+      "title": "Beyond Scale: Where Does AI Go From Here?",
+      "role": "Moderator",
+      "location": "National Gallery Singapore",
+      "date": "2026-10-05",
+      "year": "2026",
+      "image": "dev-day-2026-panel.webp",
+      "caption": "“Beyond Scale: Where Does AI Go From Here?” panel · Moderator: Jake Salerno · Singapore · October 5, 2026",
+      "alt": "Four panelists including moderator Jake Salerno seated on the 0G Dev Day stage at National Gallery Singapore",
+      "url": "https://build.0g.ai/dev-day-2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "View agenda",
+          "url": "https://build.0g.ai/dev-day-2026"
+        }
+      ],
+      "page": "/appearances/0g-dev-day-2026/"
+    },
+    {
+      "event": "KBW2026",
+      "title": "Panel discussion at KBW2026",
+      "year": "2026",
+      "image": "kbw-2026-panel.webp",
+      "caption": "Panel discussion at KBW2026.",
+      "alt": "Wide view of Jake Salerno and three other panelists seated on the KBW2026 stage",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Rare Evo 2026",
+      "title": "Panel discussion at Rare Evo 2026",
+      "location": "Las Vegas",
+      "year": "2026",
+      "image": "rare-evo-2026-panel.webp",
+      "caption": "Panel discussion at Rare Evo 2026, Las Vegas.",
+      "alt": "Jake Salerno speaking with three other panelists in armchairs on the Rare Evo 2026 stage in Las Vegas",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Builder Nights — Multichain",
+      "title": "On stage panel",
+      "date": "2026-05-13",
+      "year": "2026",
+      "image": "builder-nights-multichain-panel.webp",
+      "links": []
+    },
+    {
+      "event": "Consensus — House of AI",
+      "title": "Hot Seat: AI knows more about you than your therapist",
+      "location": "Miami",
+      "date": "2026-05-04",
+      "year": "2026",
+      "image": "consensus-house-of-ai-hot-seat.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Consensus — House of AI",
+      "title": "After the talk",
+      "location": "Miami",
+      "date": "2026-05-04",
+      "year": "2026",
+      "image": "consensus-house-of-ai-networking.webp",
+      "links": []
+    },
+    {
+      "event": "Bass Denver",
+      "title": "Stanford Blockchain Accelerator fireside",
+      "location": "Denver, CO",
+      "date": "2026-02-17",
+      "year": "2026",
+      "image": "bass-denver-fireside.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280"
+        }
+      ],
+      "position": "50% 35%",
+      "editorialRank": 5,
+      "homeCaption": "Stanford Blockchain Accelerator fireside · BASS Denver · 2026"
+    },
+    {
+      "event": "InnovateDenver",
+      "title": "AI × Crypto: Essential Fusion or Forced Marriage?",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "image": "innovate-denver-ai-crypto-panel.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://www.youtube.com/watch?v=5lWa65tXrTA"
+        },
+        {
+          "label": "View speaker profile",
+          "url": "https://www.innovate.thetie.io/speakers-denver-2026"
+        }
+      ]
+    },
+    {
+      "event": "ETHDenver — Scaling Summit",
+      "title": "The End of Blind Faith talk",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "image": "ethdenver-end-of-blind-faith-talk.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://x.com/0G_labs/status/2026990980164116547?s=20"
+        },
+        {
+          "label": "Read event recap",
+          "url": "https://0g.ai/blog/ethdenver-2026-recap"
+        }
+      ],
+      "page": "/appearances/scaling-summit-2026/",
+      "role": "Keynote",
+      "position": "50% 35%",
+      "editorialRank": 1,
+      "homeCaption": "The End of Blind Faith · Scaling Summit · Denver · 2026"
+    },
+    {
+      "event": "ETHDenver — TheStreet Roundtable",
+      "title": "Interview with Jackson Hinkle",
+      "location": "Denver, CO",
+      "year": "2026",
+      "image": "ethdenver-thestreet-interview.webp",
+      "links": [
+        {
+          "label": "Read on Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/0g-labs-jake-salerno-reveals-231541657.html"
+        }
+      ]
+    },
+    {
+      "event": "Tectonic",
+      "title": "Panel",
+      "location": "Denver, CO",
+      "year": "2026",
+      "image": "tectonic-panel-wide.webp",
+      "links": []
+    },
+    {
+      "event": "Open AGI Summit",
+      "title": "Privacy, Security & Open Source AI panel",
+      "location": "Denver, CO",
+      "date": "2026-02-19",
+      "year": "2026",
+      "image": "open-agi-summit-panel.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp"
+        }
+      ]
+    },
+    {
+      "event": "Prosperia",
+      "title": "Panel",
+      "year": "2026",
+      "image": "prosperia-panel.webp",
+      "links": []
+    },
+    {
+      "event": "Prosperia",
+      "title": "Speaking",
+      "year": "2026",
+      "image": "prosperia-speaking-closeup.webp",
+      "links": []
+    },
+    {
+      "event": "Zero Coding with 0G",
+      "title": "Event night",
+      "year": "2026",
+      "image": "zero-coding-0g-event.webp",
+      "links": []
+    },
+    {
+      "event": "Zero Coding with 0G",
+      "title": "Winners — $500,000 prize",
+      "year": "2026",
+      "image": "zero-coding-0g-winners.webp",
+      "links": []
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "On stage wide",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "image": "token2049-singapore-stage-wide.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/",
+      "homeCaption": "AI Without Limits · TOKEN2049 Singapore · 2025"
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "With Ming Wu",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "image": "token2049-singapore-couch.webp",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/"
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "Speaking close-up",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "image": "token2049-singapore-speaking-closeup.webp",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/",
+      "position": "50% 40%"
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "Listening close-up",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "image": "token2049-singapore-listening.webp",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/"
+    },
+    {
+      "event": "TOKEN2049 Singapore",
+      "title": "Audience view",
+      "location": "Singapore",
+      "date": "2025-10-02",
+      "year": "2025",
+      "image": "token2049-singapore-audience.webp",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/"
+    },
+    {
+      "event": "NextGen at TOKEN2049",
+      "title": "Panel",
+      "location": "Singapore",
+      "date": "2025-10-01",
+      "year": "2025",
+      "image": "nextgen-token2049-panel.webp",
+      "links": []
+    },
+    {
+      "event": "AI Frontier",
+      "title": "Panel",
+      "date": "2025-09-30",
+      "year": "2025",
+      "image": "ai-frontier-panel.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "AI Frontier",
+      "title": "Speaking close-up",
+      "date": "2025-09-30",
+      "year": "2025",
+      "image": "ai-frontier-speaking-closeup.webp",
+      "links": [],
+      "position": "50% 0%",
+      "editorialRank": 4,
+      "homeCaption": "Speaking at AI Frontier · 2025"
+    },
+    {
+      "event": "Korea Blockchain Week — Stable Stage",
+      "title": "Panel wide",
+      "location": "Seoul",
+      "date": "2025-09-22",
+      "year": "2025",
+      "image": "kbw-stable-stage-panel-wide.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Korea Blockchain Week — Stable Stage",
+      "title": "Speaking close-up",
+      "location": "Seoul",
+      "date": "2025-09-22",
+      "year": "2025",
+      "image": "kbw-stable-stage-speaking-closeup.webp",
+      "links": []
+    },
+    {
+      "event": "Korea Blockchain Week — Stable Stage",
+      "title": "Speaking portrait",
+      "location": "Seoul",
+      "date": "2025-09-22",
+      "year": "2025",
+      "image": "kbw-stable-stage-speaking-portrait.webp",
+      "links": []
+    },
+    {
+      "event": "Consensus — Decentralized Compute for AI",
+      "title": "On stage panel",
+      "location": "Toronto",
+      "date": "2025-05-13",
+      "year": "2025",
+      "image": "consensus-decentralized-compute-panel.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Consensus — Decentralized Compute for AI",
+      "title": "Group photo",
+      "location": "Toronto",
+      "date": "2025-05-13",
+      "year": "2025",
+      "image": "consensus-decentralized-compute-group.webp",
+      "links": []
+    },
+    {
+      "event": "CUDIS",
+      "title": "Speaking",
+      "year": "2025",
+      "image": "cudis-event-speaking.webp",
+      "links": []
+    },
+    {
+      "event": "NodeOps — Proof of Build",
+      "title": "Fireside with Naman Kabra",
+      "year": "2025",
+      "image": "nodeops-fireside-chat.webp",
+      "links": []
+    },
+    {
+      "event": "NodeOps — Modular Infra & AI at Scale",
+      "title": "Outdoor panel",
+      "year": "2025",
+      "image": "nodeops-modular-infra-panel.webp",
+      "links": []
+    },
+    {
+      "event": "OnePiece Labs",
+      "title": "Solo talk",
+      "year": "2025",
+      "image": "onepiece-labs-talk.webp",
+      "links": [],
+      "editorialRank": 3,
+      "homeCaption": "Solo talk · OnePiece Labs · 2025"
+    },
+    {
+      "event": "OnePiece Labs — Web3 University Tours",
+      "title": "Panel",
+      "year": "2025",
+      "image": "onepiece-labs-panel.webp",
+      "links": []
+    }
+  ],
+  "speakerCards": [
+    {
+      "event": "Speaker roster",
+      "title": "Featured speaker roster",
+      "image": "speaker-roster-jake-salerno.webp",
+      "caption": "Speaker roster featuring Jake Salerno, Vice President of Go-to-Market at 0G Labs.",
+      "alt": "Complete eight-person speaker roster featuring Jake Salerno alongside leaders from Dragonfly, Cherry, OtterSec, Trust Wallet, GenLayer, Bond Labs and CoinMarketCap",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "0G Dev Day",
+      "title": "Beyond Scale: Where Does AI Go From Here?",
+      "role": "Moderator",
+      "location": "National Gallery Singapore",
+      "date": "2026-10-05",
+      "year": "2026",
+      "image": "dev-day-2026-speaker-card.webp",
+      "caption": "Moderator: “Beyond Scale: Where Does AI Go From Here?” · National Gallery Singapore · October 5, 2026",
+      "alt": "0G Dev Day speaker card naming Jake Salerno as moderator of Beyond Scale with Scott Dernley, Airkin Wu and Ismael Hishon-Rezaizadeh",
+      "url": "https://build.0g.ai/dev-day-2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "View agenda",
+          "url": "https://build.0g.ai/dev-day-2026"
+        }
+      ],
+      "page": "/appearances/0g-dev-day-2026/",
+      "homeCaption": "Moderating “Beyond Scale” · 0G Dev Day · Singapore · 2026"
+    },
+    {
+      "event": "KBW2026",
+      "title": "Featured speaker",
+      "year": "2026",
+      "image": "kbw-2026-featured-speaker.webp",
+      "caption": "Jake Salerno · Featured speaker at KBW2026 · Vice President of Go-to-Market, 0G Labs",
+      "alt": "KBW2026 with Upbit speaker graphic featuring Jake Salerno, VP of GTM at Zero Gravity Labs",
+      "featured": true,
+      "links": [],
+      "homeCaption": "Featured speaker · KBW2026"
+    },
+    {
+      "event": "Multichain Day",
+      "title": "Agentic Finance: Autonomous Capital, Execution, and AI-Native Markets",
+      "role": "Panelist",
+      "location": "Singapore",
+      "date": "2026-10-06",
+      "year": "2026",
+      "image": "multichain-day-2026-speaker-card.webp",
+      "caption": "“Agentic Finance: Autonomous Capital, Execution, and AI-Native Markets” · Singapore · October 6, 2026 · 3:15–3:45 PM",
+      "alt": "Multichain Day Singapore panel card listing Jake Salerno with Charles de Pue, Dean Tribble and David Shengart for the Agentic Finance session",
+      "url": "https://luma.com/multichaindaysingapore",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch discussion",
+          "url": "https://www.youtube.com/watch?v=FEqSe1xZShQ"
+        },
+        {
+          "label": "View agenda",
+          "url": "https://luma.com/multichaindaysingapore"
+        }
+      ],
+      "page": "/appearances/agentic-finance-2026/",
+      "homeCaption": "Agentic Finance · Multichain Day · Singapore · 2026"
+    },
+    {
+      "event": "Rare Evo 2026",
+      "title": "Featured speaker",
+      "location": "Las Vegas",
+      "year": "2026",
+      "image": "rare-evo-2026-speaker-card.webp",
+      "caption": "Jake Salerno · Rare Evo 2026 featured speaker · Las Vegas · Conference: July 28–31, 2026",
+      "alt": "Rare Evo 2026 featured speaker card for Jake Salerno advertising the July 28 to 31 conference in Las Vegas",
+      "featured": true,
+      "links": [],
+      "homeCaption": "Featured speaker · Rare Evo · Las Vegas · 2026"
+    },
+    {
+      "event": "Builder Nights — Multichain Fest",
+      "title": "Speaker card",
+      "date": "2026-05-13",
+      "year": "2026",
+      "image": "builder-nights-multichain-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Consensus — Schedule",
+      "title": "Speaker schedule",
+      "location": "Miami",
+      "date": "2026-05-04",
+      "year": "2026",
+      "image": "consensus-2026-schedule-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Consensus — House of AI",
+      "title": "Hot Seat",
+      "location": "Miami",
+      "date": "2026-05-04",
+      "year": "2026",
+      "image": "house-of-ai-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Consensus — Myosin × Stellar",
+      "title": "Marketers in the Arena",
+      "location": "Miami",
+      "date": "2026-05-04",
+      "year": "2026",
+      "image": "myosin-marketers-arena-card.webp",
+      "links": []
+    },
+    {
+      "event": "EthCC[9] Cannes",
+      "title": "AI Agents & Automation",
+      "location": "Cannes, France",
+      "date": "2026-04-01",
+      "year": "2026",
+      "image": "ethcc-cannes-ai-agents-card.webp",
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://www.youtube.com/watch?v=2F9A0KsG7iI"
+        },
+        {
+          "label": "View session archive",
+          "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai"
+        }
+      ],
+      "page": "/appearances/ethcc-2026/"
+    },
+    {
+      "event": "EthCC Cannes — Keynote",
+      "title": "Why Verification Should Be a 1st Class Citizen in AI",
+      "location": "Cannes, France",
+      "date": "2026-04-01",
+      "year": "2026",
+      "image": "ethcc-cannes-keynote-card.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://www.youtube.com/watch?v=2F9A0KsG7iI"
+        },
+        {
+          "label": "View session archive",
+          "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai"
+        }
+      ],
+      "page": "/appearances/ethcc-2026/"
+    },
+    {
+      "event": "Bass Denver",
+      "title": "Stanford Blockchain Accelerator",
+      "location": "Denver, CO",
+      "date": "2026-02-17",
+      "year": "2026",
+      "image": "bass-denver-speaker-card.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280"
+        }
+      ],
+      "homeCaption": "Stanford Blockchain Accelerator · BASS Denver · 2026"
+    },
+    {
+      "event": "InnovateDenver",
+      "title": "Speaker card (by The Tie)",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "image": "innovate-denver-speaker-card.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://www.youtube.com/watch?v=5lWa65tXrTA"
+        },
+        {
+          "label": "View speaker profile",
+          "url": "https://www.innovate.thetie.io/speakers-denver-2026"
+        }
+      ],
+      "homeCaption": "InnovateDenver · The Tie · Denver · 2026"
+    },
+    {
+      "event": "ETHDenver — Scaling Summit",
+      "title": "Speaker card",
+      "location": "Denver, CO",
+      "date": "2026-02-16",
+      "year": "2026",
+      "image": "scaling-summit-speaker-card.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://x.com/0G_labs/status/2026990980164116547?s=20"
+        },
+        {
+          "label": "Read event recap",
+          "url": "https://0g.ai/blog/ethdenver-2026-recap"
+        }
+      ],
+      "page": "/appearances/scaling-summit-2026/",
+      "role": "Keynote"
+    },
+    {
+      "event": "Tectonic",
+      "title": "Speaker card",
+      "location": "Denver, CO",
+      "year": "2026",
+      "image": "tectonic-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Open AGI Summit",
+      "title": "Speaker card",
+      "location": "Denver, CO",
+      "date": "2026-02-19",
+      "year": "2026",
+      "image": "open-agi-summit-speaker-card.webp",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp"
+        }
+      ],
+      "homeCaption": "Open AGI Summit · Denver · 2026"
+    },
+    {
+      "event": "Quantum Summit at ETHDenver",
+      "title": "Where TEEs, FHE, MPC, and ZK Fit in a Quantum World",
+      "location": "Denver, CO",
+      "year": "2026",
+      "image": "quantum-summit-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "NextGen at TOKEN2049",
+      "title": "Speaker card",
+      "location": "Singapore",
+      "date": "2025-10-01",
+      "year": "2025",
+      "image": "nextgen-token2049-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "AI Frontier",
+      "title": "Speaker card",
+      "date": "2025-09-30",
+      "year": "2025",
+      "image": "ai-frontier-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Korea Blockchain Week",
+      "title": "Speaker card",
+      "location": "Seoul",
+      "date": "2025-09-22",
+      "year": "2025",
+      "image": "kbw-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Galxe Starboard Roundtable",
+      "title": "X Spaces roundtable",
+      "date": "2025-06-04",
+      "year": "2025",
+      "image": "galxe-starboard-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Consensus — Toronto",
+      "title": "Speaker card",
+      "location": "Toronto",
+      "date": "2025-05-13",
+      "year": "2025",
+      "image": "consensus-speaker-card.webp",
+      "featured": true,
+      "links": []
+    },
+    {
+      "event": "Agents Unleashed",
+      "title": "Prediction markets and AI: hype or substance?",
+      "date": "2025-10-01",
+      "year": "2025",
+      "image": "agents-unleashed-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Autonomous AI",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "autonomous-ai-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Alpha Edition",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "alpha-edition-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Allora Forecast",
+      "title": "Speaker card",
+      "date": "2025-06-18",
+      "year": "2025",
+      "image": "allora-forecast-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Bass Summit",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "bass-summit-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Huddle01",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "huddle-01-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "NodeOps",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "nodeops-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Plume",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "plume-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Warden",
+      "title": "Speaker card",
+      "date": "2024-12-20",
+      "year": "2024",
+      "image": "warden-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "WAGMI Hub",
+      "title": "Speaker card",
+      "date": "2024-12-27",
+      "year": "2024",
+      "image": "wagmi-hub-speaker-card.webp",
+      "links": []
+    },
+    {
+      "event": "Miami University Blockchain Club",
+      "title": "Fireside",
+      "date": "2025-10-23",
+      "year": "2025",
+      "image": "mubc-fireside-speaker-card.webp",
+      "links": [
+        {
+          "label": "View event page",
+          "url": "https://luma.com/g4553kdo"
+        }
+      ]
+    },
+    {
+      "event": "Miami Fireside",
+      "title": "Speaker card",
+      "date": "2025-10-23",
+      "year": "2025",
+      "image": "miami-fireside-speaker-card.webp",
+      "links": [
+        {
+          "label": "View event page",
+          "url": "https://luma.com/g4553kdo"
+        }
+      ]
+    },
+    {
+      "event": "UT Austin",
+      "title": "Speaker card",
+      "year": "2025",
+      "image": "ut-austin-speaker-card.webp",
+      "links": []
+    }
+  ],
+  "mediaResources": [
+    {
+      "title": "0G Labs Publishes Verification Framework for Decentralized AI Training as Models Cross 100 Billion Parameters",
+      "source": "GlobeNewswire",
+      "category": "press",
+      "format": "article",
+      "url": "https://www.globenewswire.com/news-release/2026/03/27/3264035/0/en/0g-labs-publishes-verification-framework-for-decentralized-ai-training-as-models-cross-100-billion-parameters.html",
+      "date": "2026-03-27",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://www.globenewswire.com/news-release/2026/03/27/3264035/0/en/0g-labs-publishes-verification-framework-for-decentralized-ai-training-as-models-cross-100-billion-parameters.html"
+        }
+      ]
+    },
+    {
+      "title": "0G Labs' Jake Salerno Reveals New Plan to Break Big Tech AI Control",
+      "source": "TheStreet · syndicated on Yahoo Finance",
+      "category": "press",
+      "format": "article",
+      "url": "https://finance.yahoo.com/news/0g-labs-jake-salerno-reveals-231541657.html",
+      "date": "2026-02-25",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Read on Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/0g-labs-jake-salerno-reveals-231541657.html"
+        }
+      ],
+      "originalUrl": "https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control",
+      "publicationNote": "Original published February 25, 2026; syndicated copy dated February 26. Same interview."
+    },
+    {
+      "title": "ETHDenver 2026 Recap",
+      "source": "0G Labs Blog",
+      "category": "press",
+      "format": "article",
+      "url": "https://0g.ai/blog/ethdenver-2026-recap",
+      "date": "2026-03-05",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/ethdenver-2026-recap"
+        }
+      ]
+    },
+    {
+      "title": "EthCC Cannes 2026 Recap",
+      "source": "0G Labs Blog",
+      "category": "press",
+      "format": "article",
+      "url": "https://0g.ai/blog/ethcc-cannes-2026-recap",
+      "date": "2026-04-23",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/ethcc-cannes-2026-recap"
+        }
+      ]
+    },
+    {
+      "title": "Consensus Toronto Recap",
+      "source": "0G Labs Blog",
+      "category": "press",
+      "format": "article",
+      "url": "https://0g.ai/blog/consensus-toronto-recap",
+      "date": "2025-05-26",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/consensus-toronto-recap"
+        }
+      ]
+    },
+    {
+      "title": "Why Verification Matters in Decentralized AI Training",
+      "source": "0G Labs Blog",
+      "category": "press",
+      "format": "article",
+      "url": "https://0g.ai/blog/why-verification-matters-decentralized-ai-training",
+      "date": "2026-03-27",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/why-verification-matters-decentralized-ai-training"
+        }
+      ]
+    },
+    {
+      "title": "0G Labs VP: Making Decentralised AI a Public Good",
+      "source": "DL News",
+      "category": "press",
+      "format": "article",
+      "url": "https://www.dlnews.com/research/internal/0g-labs-vp-making-decentralised-ai-public-good/",
+      "featured": true,
+      "date": "2026-04-10",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Read interview",
+          "url": "https://www.dlnews.com/research/internal/0g-labs-vp-making-decentralised-ai-public-good/"
+        }
+      ]
+    },
+    {
+      "title": "Binance Square feature",
+      "source": "Binance Square",
+      "category": "press",
+      "format": "article",
+      "url": "https://www.binance.com/ar/square/post/295564986576898",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://www.binance.com/ar/square/post/295564986576898"
+        }
+      ]
+    },
+    {
+      "title": "Khalani Goes Live on 0G",
+      "source": "Khalani Network",
+      "category": "press",
+      "format": "article",
+      "url": "https://blog.khalani.network/khalani-goes-live-on-0g",
+      "date": "2025-10-29",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://blog.khalani.network/khalani-goes-live-on-0g"
+        }
+      ]
+    },
+    {
+      "title": "0G Adopts Chainlink Data Streams and Integrates CCIP",
+      "source": "0G Labs Blog",
+      "category": "press",
+      "format": "article",
+      "url": "https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure",
+      "date": "2025-09-24",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure"
+        }
+      ]
+    },
+    {
+      "title": "0G Labs — The First Decentralised AI Operating System",
+      "source": "SwissBorg Academy",
+      "category": "press",
+      "format": "article",
+      "url": "https://academy.swissborg.com/en/learn/0g-labs-investment-thesis",
+      "date": "2024-11-15",
+      "year": "2024",
+      "links": [
+        {
+          "label": "Read article",
+          "url": "https://academy.swissborg.com/en/learn/0g-labs-investment-thesis"
+        }
+      ]
+    },
+    {
+      "title": "Jake Salerno — Speaker",
+      "source": "EthCC Cannes",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai",
+      "date": "2026-04-01",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://www.youtube.com/watch?v=2F9A0KsG7iI"
+        },
+        {
+          "label": "View session archive",
+          "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai"
+        }
+      ],
+      "page": "/appearances/ethcc-2026/"
+    },
+    {
+      "title": "Jake Salerno — Speaker",
+      "source": "ETHDenver",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://ethdenver.com/speakers/jake-salerno/",
+      "year": "2026",
+      "links": [
+        {
+          "label": "View speaker profile",
+          "url": "https://ethdenver.com/speakers/jake-salerno/"
+        }
+      ]
+    },
+    {
+      "title": "Speakers — ETHDenver 2026",
+      "source": "ETHDenver",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://ethdenver.com/speakers/",
+      "year": "2026",
+      "links": [
+        {
+          "label": "View speaker profile",
+          "url": "https://ethdenver.com/speakers/"
+        }
+      ]
+    },
+    {
+      "title": "Speakers — Denver 2026",
+      "source": "InnovateDenver",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://www.innovate.thetie.io/speakers-denver-2026",
+      "date": "2026-02-16",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://www.youtube.com/watch?v=5lWa65tXrTA"
+        },
+        {
+          "label": "View speaker profile",
+          "url": "https://www.innovate.thetie.io/speakers-denver-2026"
+        }
+      ]
+    },
+    {
+      "title": "Jake Salerno & Ming Wu — AI Without Limits",
+      "source": "TOKEN2049 Singapore",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://www.youtube.com/watch?v=og4yujmUPvk",
+      "date": "2025-10-02",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/"
+    },
+    {
+      "title": "Speakers 2025",
+      "source": "Korea Blockchain Week",
+      "category": "conference",
+      "format": "speaker-page",
+      "url": "https://koreablockchainweek.com/pages/2025-speakers",
+      "date": "2025-09-22",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Conference homepage (archive unavailable)",
+          "url": "https://koreablockchainweek.com/"
+        }
+      ]
+    },
+    {
+      "title": "Starboard Roundtable",
+      "source": "Galxe",
+      "category": "podcast",
+      "format": "x-space",
+      "url": "https://x.com/i/spaces/1BdGYqRBNlDGX?s=20",
+      "date": "2025-06-04",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://x.com/i/spaces/1BdGYqRBNlDGX?s=20"
+        }
+      ]
+    },
+    {
+      "title": "The Allora Forecast Ep 1: AI agents, decentralized intelligence & what’s next",
+      "source": "Allora",
+      "category": "podcast",
+      "format": "x-space",
+      "url": "https://x.com/i/spaces/1vAGRDWwXOaxl?s=20",
+      "date": "2025-06-18",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://x.com/i/spaces/1vAGRDWwXOaxl?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Artificial Intelligence: Best Real-World Web3 Use Cases",
+      "source": "WAGMI Hub",
+      "category": "podcast",
+      "format": "x-space",
+      "url": "https://x.com/i/spaces/1OwxWNLLlpDJQ?s=20",
+      "date": "2024-12-27",
+      "year": "2024",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://x.com/i/spaces/1OwxWNLLlpDJQ?s=20"
+        }
+      ]
+    },
+    {
+      "title": "71. This AI is a Money Printer: 0G’s Modular Stack",
+      "source": "Apple Podcasts",
+      "category": "podcast",
+      "format": "podcast",
+      "url": "https://podcasts.apple.com/us/podcast/71-this-ai-is-a-money-printer-0gs-modular-stack/id1772429181?i=1000732950578&l=zh-Hant-TW",
+      "date": "2025-10-07",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://podcasts.apple.com/us/podcast/71-this-ai-is-a-money-printer-0gs-modular-stack/id1772429181?i=1000732950578&l=zh-Hant-TW"
+        }
+      ]
+    },
+    {
+      "title": "0G's Modular Stack & The Next AI Cycle with Jake Salerno",
+      "source": "YouTube",
+      "category": "podcast",
+      "format": "podcast",
+      "url": "https://www.youtube.com/watch?v=aL2bbgfVMJU",
+      "date": "2025-10-06",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://www.youtube.com/watch?v=aL2bbgfVMJU"
+        }
+      ]
+    },
+    {
+      "title": "AI Unbundled: Web3 AI Pioneers AMA",
+      "source": "Aethir",
+      "category": "podcast",
+      "format": "x-broadcast",
+      "url": "https://x.com/i/broadcasts/1YqJDZdVYMDKV?s=20",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://x.com/i/broadcasts/1YqJDZdVYMDKV?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Web3 Roundtable Space #6: AI & Web3 — Who Controls Your Data",
+      "source": "Web3 Roundtable",
+      "category": "podcast",
+      "format": "x-space",
+      "url": "https://x.com/i/spaces/1rmGPyaqBljJN?s=20",
+      "date": "2025-02-14",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Listen",
+          "url": "https://x.com/i/spaces/1rmGPyaqBljJN?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Jake Salerno (0g.ai) — Why Verification Should Be a 1st Class Citizen in AI",
+      "source": "EthCC",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://www.youtube.com/live/2F9A0KsG7iI?si=niAuSI75S8LOTgdC",
+      "date": "2026-04-01",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://www.youtube.com/watch?v=2F9A0KsG7iI"
+        },
+        {
+          "label": "View session archive",
+          "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai"
+        }
+      ],
+      "page": "/appearances/ethcc-2026/"
+    },
+    {
+      "title": "Privacy, Security & Open Source AI — Open AGI Summit",
+      "source": "Open AGI Summit",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp",
+      "date": "2026-02-19",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp"
+        }
+      ]
+    },
+    {
+      "title": "Where TEEs, FHE, MPC, and ZK Fit in a Quantum World",
+      "source": "Quantum Summit at ETHDenver",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://www.youtube.com/watch?v=l9mK2y8O4Uw",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=l9mK2y8O4Uw"
+        }
+      ]
+    },
+    {
+      "title": "BASS Denver 2026: Fireside Chat",
+      "source": "Stanford Blockchain Accelerator",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280",
+      "date": "2026-02-17",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280"
+        }
+      ]
+    },
+    {
+      "title": "AI × Crypto: Essential Fusion or Forced Marriage?",
+      "source": "Innovate Denver by The Tie",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://www.youtube.com/watch?v=5lWa65tXrTA",
+      "date": "2026-02-16",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Watch panel",
+          "url": "https://www.youtube.com/watch?v=5lWa65tXrTA"
+        },
+        {
+          "label": "View speaker profile",
+          "url": "https://www.innovate.thetie.io/speakers-denver-2026"
+        }
+      ]
+    },
+    {
+      "title": "Jake Salerno and Ming Wu — 0G — AI Without Limits",
+      "source": "TOKEN2049 Singapore",
+      "category": "youtube",
+      "format": "youtube",
+      "url": "https://www.youtube.com/watch?v=og4yujmUPvk",
+      "date": "2025-10-02",
+      "year": "2025",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://www.youtube.com/watch?v=og4yujmUPvk"
+        }
+      ],
+      "page": "/appearances/token2049-2025/"
+    },
+    {
+      "title": "House of AI — The End of Blind Faith: Architecting Truth in the Age of Autonomy",
+      "source": "0G Labs",
+      "category": "x-video",
+      "format": "x-video",
+      "url": "https://x.com/0G_labs/status/2026990980164116547?s=20",
+      "date": "2026-02-16",
+      "year": "2026",
+      "featured": true,
+      "links": [
+        {
+          "label": "Watch talk",
+          "url": "https://x.com/0G_labs/status/2026990980164116547?s=20"
+        },
+        {
+          "label": "Read event recap",
+          "url": "https://0g.ai/blog/ethdenver-2026-recap"
+        }
+      ],
+      "page": "/appearances/scaling-summit-2026/",
+      "role": "Keynote"
+    },
+    {
+      "title": "TGE: A Look Inside the War Room",
+      "source": "ETHDenver Main Stage",
+      "category": "x-video",
+      "format": "x-video",
+      "url": "https://x.com/EthereumDenver/status/2024270563573977443?s=20",
+      "date": "2026-02-18",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://x.com/EthereumDenver/status/2024270563573977443?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Shipping Multichain: What Breaks Between Demo and Production",
+      "source": "FP Block",
+      "category": "x-video",
+      "format": "x-video",
+      "url": "https://x.com/FP_Block/status/2055030392009138562?s=20",
+      "links": [
+        {
+          "label": "Watch conversation",
+          "url": "https://x.com/FP_Block/status/2055030392009138562?s=20"
+        }
+      ]
+    },
+    {
+      "title": "Agentic Finance | MCD & OCD | TOKEN2049 Singapore 2026",
+      "source": "Wrapped · Multichain Day",
+      "category": "youtube",
+      "format": "video",
+      "url": "https://www.youtube.com/watch?v=FEqSe1xZShQ",
+      "date": "2026-10-13",
+      "year": "2026",
+      "page": "/appearances/agentic-finance-2026/",
+      "links": [
+        {
+          "label": "Watch discussion",
+          "url": "https://www.youtube.com/watch?v=FEqSe1xZShQ"
+        }
+      ]
+    }
+  ]
+}

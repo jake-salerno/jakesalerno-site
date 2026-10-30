@@ -1,0 +1,455 @@
+[
+  {
+    "url": "https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure",
+    "status": 200,
+    "final": "https://0g.ai/blog/ai-driven-layer-1-0g-adopts-chainlink-data-streams-and-integrates-ccip-as-its-canonical-cross-chain-infrastructure",
+    "title": "AI-Driven Layer 1, 0G Adopts Chainlink Data Streams and Integrates CCIP As Its Canonical Cross-Chain Infrastructure | 0G",
+    "metadata": [
+      "<meta name=\"description\" content=\"0G integrates Chainlink CCIP for cross-chain infrastructure and adopts Data Streams for oracle solutions, enabling secure AI-native blockchain applications.\"/>",
+      "<meta property=\"og:description\" content=\"0G integrates Chainlink CCIP for cross-chain infrastructure and adopts Data Streams for oracle solutions, enabling secure AI-native blockchain applications.\"/>",
+      "<meta name=\"twitter:description\" content=\"0G integrates Chainlink CCIP for cross-chain infrastructure and adopts Data Streams for oracle solutions, enabling secure AI-native blockchain applications.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://0g.ai/blog/consensus-toronto-recap",
+    "status": 200,
+    "final": "https://0g.ai/blog/consensus-toronto-recap",
+    "title": "From Panels to Pizza: Inside 0G\u2019s Momentum at Consensus Toronto | 0G",
+    "metadata": [
+      "<meta name=\"description\" content=\"CEO Michael Heinrich led five speaking sessions across Consensus Toronto, covering modular compute, AI agent frameworks, and privacy in decentralized AI systems.\"/>",
+      "<meta property=\"og:description\" content=\"CEO Michael Heinrich led five speaking sessions across Consensus Toronto, covering modular compute, AI agent frameworks, and privacy in decentralized AI systems.\"/>",
+      "<meta name=\"twitter:description\" content=\"CEO Michael Heinrich led five speaking sessions across Consensus Toronto, covering modular compute, AI agent frameworks, and privacy in decentralized AI systems.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://0g.ai/blog/ethcc-cannes-2026-recap",
+    "status": 200,
+    "final": "https://0g.ai/blog/ethcc-cannes-2026-recap",
+    "title": "EthCC [9] Cannes Recap: A Week of Building with 0G | 0G",
+    "metadata": [
+      "<meta name=\"description\" content=\"0G hosted 5 events and spoke at 4 stages during EthCC [9] Cannes. Full recap: Jake Salerno keynote, Zero Coding winners, and ETHGlobal hackathon results.\"/>",
+      "<meta property=\"og:description\" content=\"0G hosted 5 events and spoke at 4 stages during EthCC [9] Cannes. Full recap: Jake Salerno keynote, Zero Coding winners, and ETHGlobal hackathon results.\"/>",
+      "<meta name=\"twitter:description\" content=\"0G hosted 5 events and spoke at 4 stages during EthCC [9] Cannes. Full recap: Jake Salerno keynote, Zero Coding winners, and ETHGlobal hackathon results.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://0g.ai/blog/ethdenver-2026-recap",
+    "status": 200,
+    "final": "https://0g.ai/blog/ethdenver-2026-recap",
+    "title": "ETHDenver 2026 Recap: Verifiable AI in Action | 0G",
+    "metadata": [
+      "<meta name=\"description\" content=\"0G&#x27;s full ETHDenver 2026 recap: AI summits, hackathon bounties with 60+ teams, vibe coding house, accelerator night, and 15+ stage appearances across Denver.\"/>",
+      "<meta property=\"og:description\" content=\"0G&#x27;s full ETHDenver 2026 recap: AI summits, hackathon bounties with 60+ teams, vibe coding house, accelerator night, and 15+ stage appearances across Denver.\"/>",
+      "<meta name=\"twitter:description\" content=\"0G&#x27;s full ETHDenver 2026 recap: AI summits, hackathon bounties with 60+ teams, vibe coding house, accelerator night, and 15+ stage appearances across Denver.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://0g.ai/blog/why-verification-matters-decentralized-ai-training",
+    "status": 200,
+    "final": "https://0g.ai/blog/why-verification-matters-decentralized-ai-training",
+    "title": "Why verification matters for decentralized AI training | 0G",
+    "metadata": [
+      "<meta name=\"description\" content=\"Decentralized AI training needs more than efficiency. TEE verification proves every node trained correctly. How 0G and Bittensor approach trust.\"/>",
+      "<meta property=\"og:description\" content=\"Decentralized AI training needs more than efficiency. TEE verification proves every node trained correctly. How 0G and Bittensor approach trust.\"/>",
+      "<meta name=\"twitter:description\" content=\"Decentralized AI training needs more than efficiency. TEE verification proves every node trained correctly. How 0G and Bittensor approach trust.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://academy.swissborg.com/en/learn/0g-labs-investment-thesis",
+    "status": 200,
+    "final": "https://academy.swissborg.com/en/learn/0g-labs-investment-thesis",
+    "title": "0G Labs - The First Decentralised AI Operating System",
+    "metadata": [
+      "<meta name=\"description\" content=\"0G Labs: Pioneering the first decentralised AI operating system for a transparent, secure, and user-owned AI future\"/>",
+      "<meta property=\"og:description\" content=\"0G Labs: Pioneering the first decentralised AI operating system for a transparent, secure, and user-owned AI future\"/>",
+      "<meta name=\"twitter:description\" content=\"0G Labs: Pioneering the first decentralised AI operating system for a transparent, secure, and user-owned AI future\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://blog.khalani.network/khalani-goes-live-on-0g",
+    "status": 200,
+    "final": "https://blog.khalani.network/khalani-goes-live-on-0g",
+    "title": "Khalani on 0G Network",
+    "metadata": [
+      "<meta name=\"description\" content=\"Khalani goes live on 0G Network\"/>",
+      "<meta property=\"og:description\" content=\"Khalani goes live on 0G Network\"/>",
+      "<meta name=\"twitter:description\" content=\"Khalani goes live on 0G Network\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://build.0g.ai/dev-day-2026",
+    "status": 200,
+    "final": "https://build.0g.ai/dev-day-2026",
+    "title": "0G Dev Day 2026, Singapore | 0G Builder Hub",
+    "metadata": [
+      "<meta name=\"description\" content=\"0G Dev Day 2026: Zero to Infinity. Oct 5, 2026 at National Gallery Singapore. Four conference tracks, 20+ speakers, demos, workshops and a hackathon.\"/>",
+      "<meta property=\"og:description\" content=\"0G Dev Day 2026: Zero to Infinity. Oct 5, 2026 at National Gallery Singapore. Four conference tracks, 20+ speakers, demos, workshops and a hackathon.\"/>",
+      "<meta name=\"twitter:description\" content=\"0G Dev Day 2026: Zero to Infinity. Oct 5, 2026 at National Gallery Singapore. Four conference tracks, 20+ speakers, demos, workshops and a hackathon.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai",
+    "status": 200,
+    "final": "https://ethcc.io/archives/why-verification-should-be-a-1st-class-citizen-in-ai",
+    "title": "Why Verification Should be a 1st Class Citizen in AI | EthCC[10] Archives",
+    "metadata": [
+      "<meta name=\"description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralized models while proposing mechanisms for more accountable and open AI development.\"/>",
+      "<meta property=\"og:description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralized models while proposing mechanisms for more accountable and open AI development.\"/>",
+      "<meta name=\"twitter:description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralized models while proposing mechanisms for more accountable and open AI development.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://ethcc.io/speakers/jake-salerno",
+    "status": 200,
+    "final": "https://ethcc.io/speakers/jake-salerno",
+    "title": "Jake Salerno | EthCC Speaker",
+    "metadata": [
+      "<meta name=\"description\" content=\"Speaker profile for Jake Salerno at EthCC\"/>",
+      "<meta property=\"og:description\" content=\"Speaker profile for Jake Salerno at EthCC\"/>",
+      "<meta name=\"twitter:description\" content=\"Speaker profile for Jake Salerno at EthCC\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://ethdenver.com/speakers/",
+    "status": 200,
+    "final": "https://ethdenver.com/speakers/",
+    "title": "Speakers - ETHDenver",
+    "metadata": [
+      "<meta name=\"description\" content=\"The Etherverse is vast, but at its core lies New #BUIDL City, a digital metropolis where innovators, builders, and dreamers unite to forge the next era of open finance, governance, and connectivity.\"/>",
+      "<meta property=\"og:description\" content=\"The Etherverse is vast, but at its core lies New #BUIDL City, a digital metropolis where innovators, builders, and dreamers unite to forge the next era of open finance, governance, and connectivity.\" />",
+      "<meta name=\"twitter:description\" content=\"The Etherverse is vast, but at its core lies New #BUIDL City, a digital metropolis where innovators, builders, and dreamers unite to forge the next era of open finance, governance, and connectivity.\" />"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://ethdenver.com/speakers/jake-salerno/",
+    "status": 200,
+    "final": "https://ethdenver.com/speakers/jake-salerno/",
+    "title": "Jake Salerno",
+    "metadata": [
+      "<meta name=\"description\" content=\"Jake leads GTM at Zero Gravity Labs, where he built and oversees the team responsible for driving ecosystem integrations and strategic go-to-market execution.\"/>",
+      "<meta property=\"og:description\" content=\"Jake leads GTM at Zero Gravity Labs, where he built and oversees the team responsible for driving ecosystem integrations and strategic go-to-market execution.\" />",
+      "<meta name=\"twitter:description\" content=\"Jake leads GTM at Zero Gravity Labs, where he built and oversees the team responsible for driving ecosystem integrations and strategic go-to-market execution.\" />"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://koreablockchainweek.com/pages/2025-speakers",
+    "error": "HTTP Error 308: Permanent Redirect",
+    "classification": "HTTP 308 to / (confirmed separately with response headers); historical profile archive unavailable"
+  },
+  {
+    "url": "https://luma.com/g4553kdo",
+    "status": 200,
+    "final": "https://luma.com/g4553kdo",
+    "title": "Fireside Chat: Breaking into the Future of AI &amp; Web3 \u00b7 Luma",
+    "metadata": [
+      "<meta name=\"description\" content=\"Event Overview\nJoin us for an inspiring fireside chat with Jake Salerno (\u201919), Head of Business Development at Zero Gravity Labs (0G) \u2014 one of the\u2026\" data-next-head=\"\"/>",
+      "<meta property=\"og:description\" content=\"Event Overview\nJoin us for an inspiring fireside chat with Jake Salerno (\u201919), Head of Business Development at Zero Gravity Labs (0G) \u2014 one of the\u2026\" data-next-head=\"\"/>",
+      "<meta name=\"twitter:description\" content=\"Event Overview\nJoin us for an inspiring fireside chat with Jake Salerno (\u201919), Head of Business Development at Zero Gravity Labs (0G) \u2014 one of the\u2026\" data-next-head=\"\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://luma.com/multichaindaysingapore",
+    "status": 200,
+    "final": "https://luma.com/multichaindaysingapore",
+    "title": "Multichain Day | TOKEN2049 Singapore \u00b7 Luma",
+    "metadata": [
+      "<meta name=\"description\" content=\"Join us at TOKEN2049 Singapore for Multichain Day.\nBuilt by Wrapped, hosted by MomentumX Global.\nBuilt for devs and builders, and designed for real\u2026\" data-next-head=\"\"/>",
+      "<meta property=\"og:description\" content=\"Join us at TOKEN2049 Singapore for Multichain Day.\nBuilt by Wrapped, hosted by MomentumX Global.\nBuilt for devs and builders, and designed for real\u2026\" data-next-head=\"\"/>",
+      "<meta name=\"twitter:description\" content=\"Join us at TOKEN2049 Singapore for Multichain Day.\nBuilt by Wrapped, hosted by MomentumX Global.\nBuilt for devs and builders, and designed for real\u2026\" data-next-head=\"\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://podcasts.apple.com/us/podcast/71-this-ai-is-a-money-printer-0gs-modular-stack/id1772429181?i=1000732950578&l=zh-Hant-TW",
+    "status": 200,
+    "final": "https://podcasts.apple.com/us/podcast/71-this-ai-is-a-money-printer-0gs-modular-stack/id1772429181?i=1000732950578&l=zh-Hant-TW",
+    "title": "Apple Podcast\uff1a\u300aMore Than Speculation | The Chill Crypto Convo\u300b\u3008#71 | This AI is a Money Print\u22ef\u3009",
+    "metadata": [
+      "<meta name=\"description\" content=\"In this episode, Jake Salerno from 0G discusses the intersection of AI and blockchain technology, emphasizing the importance of community, the current state of \">",
+      "<meta name=\"apple:description\" content=\"In this episode, Jake Salerno from 0G discusses the intersection of AI and blockchain technology, emphasizing the importance of community, the current state of \">",
+      "<meta property=\"og:description\" content=\"Podcast \u55ae\u96c6\u30fbMore Than Speculation | The Chill Crypto Convo\u30fb2025\u5e7410\u67087\u65e5\u30fb50 \u5206\u9418\">",
+      "<meta name=\"twitter:description\" content=\"Podcast \u55ae\u96c6\u30fbMore Than Speculation | The Chill Crypto Convo\u30fb2025\u5e7410\u67087\u65e5\u30fb50 \u5206\u9418\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://token2049.com/previous-sessions/jake-salerno-and-ming-wu---0g---ai-without-limits---token2049-singapore-2025",
+    "status": 200,
+    "final": "https://token2049.com/",
+    "title": "TOKEN2049 | The World&#x27;s Largest Crypto Event",
+    "metadata": [
+      "<meta content=\"TOKEN2049 is the world&#x27;s largest crypto event. Join the ecosystem&#x27;s decision-makers in Singapore, New York and Dubai to connect, exchange ideas and shape the industry.\" name=\"description\"/>",
+      "<meta content=\"TOKEN2049 is the world&#x27;s largest crypto event. Join the ecosystem&#x27;s decision-makers in Singapore, New York and Dubai to connect, exchange ideas and shape the industry.\" property=\"og:description\"/>",
+      "<meta content=\"TOKEN2049 is the world&#x27;s largest crypto event. Join the ecosystem&#x27;s decision-makers in Singapore, New York and Dubai to connect, exchange ideas and shape the industry.\" name=\"twitter:description\"/>"
+    ],
+    "classification": "Redirect to event homepage; replaced with verified direct recording"
+  },
+  {
+    "url": "https://www.binance.com/ar/square/post/295564986576898",
+    "status": 202,
+    "final": "https://www.binance.com/ar/square/post/295564986576898",
+    "title": "",
+    "metadata": [],
+    "classification": "restricted or unverified automated access"
+  },
+  {
+    "url": "https://www.dlnews.com/research/internal/0g-labs-vp-making-decentralised-ai-public-good/",
+    "status": 200,
+    "final": "https://www.dlnews.com/research/internal/0g-labs-vp-making-decentralised-ai-public-good/",
+    "title": "0G Labs VP on making decentralised AI a public good - DL News",
+    "metadata": [],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/03/27/3264035/0/en/0g-labs-publishes-verification-framework-for-decentralized-ai-training-as-models-cross-100-billion-parameters.html",
+    "error": "HTTP Error 403: Forbidden",
+    "classification": "HTTP 403 access restriction; not proven broken"
+  },
+  {
+    "url": "https://www.innovate.thetie.io/speakers-denver-2026",
+    "status": 200,
+    "final": "https://www.innovate.thetie.io/speakers-denver-2026",
+    "title": "InnovateDenver 2026 Speakers",
+    "metadata": [
+      "<meta content=\"Where investors and builders come together to engage in discussions that strengthen the industry\u2019s momentum and increase interest in digital assets.\" name=\"description\"/>",
+      "<meta content=\"Where investors and builders come together to engage in discussions that strengthen the industry\u2019s momentum and increase interest in digital assets.\" property=\"og:description\"/>",
+      "<meta content=\"Where investors and builders come together to engage in discussions that strengthen the industry\u2019s momentum and increase interest in digital assets.\" name=\"twitter:description\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.thestreet.com/crypto/innovation/0g-labs-jake-salerno-reveals-new-plan-to-break-big-tech-ai-control",
+    "error": "HTTP Error 404: Not Found",
+    "classification": "Superseded: normal browser reaches DataDome access restriction at original URL; not confirmed broken. Search fetch retrieves full article. Yahoo syndicated copy loads normally and is selected."
+  },
+  {
+    "url": "https://www.youtube.com/live/2F9A0KsG7iI?si=niAuSI75S8LOTgdC",
+    "status": 200,
+    "final": "https://www.youtube.com/live/2F9A0KsG7iI?si=niAuSI75S8LOTgdC",
+    "title": "Jake Salerno (0g.ai) - Why Verification Should be a 1st Class Citizen in AI - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralize...\">",
+      "<meta property=\"og:description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralize...\">",
+      "<meta name=\"twitter:description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralize...\">",
+      "<meta itemprop=\"description\" content=\"This presentation outlines why AI requires transparency and verifiability to maintain trust. It addresses risks from black-box, closed systems and centralize...\">",
+      "<meta itemprop=\"datePublished\" content=\"2026-04-01T06:37:02-07:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5lWa65tXrTA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=5lWa65tXrTA",
+    "title": "AI \u00d7 Crypto: Essential Fusion or Forced Marriage? - InnovateDenver 2026 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"AI agents, decentralized compute, data marketplaces, and tokenized incentive loops are converging \u2014 but much of it risks being narrative-driven rather than p...\">",
+      "<meta property=\"og:description\" content=\"AI agents, decentralized compute, data marketplaces, and tokenized incentive loops are converging \u2014 but much of it risks being narrative-driven rather than p...\">",
+      "<meta name=\"twitter:description\" content=\"AI agents, decentralized compute, data marketplaces, and tokenized incentive loops are converging \u2014 but much of it risks being narrative-driven rather than p...\">",
+      "<meta itemprop=\"description\" content=\"AI agents, decentralized compute, data marketplaces, and tokenized incentive loops are converging \u2014 but much of it risks being narrative-driven rather than p...\">",
+      "<meta itemprop=\"datePublished\" content=\"2026-02-25T08:59:10-08:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=aL2bbgfVMJU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=aL2bbgfVMJU",
+    "title": "This AI is a Money Printer: 0G&#39;s Modular Stack &amp; The Next AI Cycle @JakeSalerno | #72 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"#0GProtocol #ModularAI #DataAvailability #DeflationaryToken #AILayer1 #Web3AI #Buyback #DecentralizedStorageTHE MONEY PRINTER AI PROTOCOL! In this essential ...\">",
+      "<meta property=\"og:description\" content=\"#0GProtocol #ModularAI #DataAvailability #DeflationaryToken #AILayer1 #Web3AI #Buyback #DecentralizedStorageTHE MONEY PRINTER AI PROTOCOL! In this essential ...\">",
+      "<meta name=\"twitter:description\" content=\"#0GProtocol #ModularAI #DataAvailability #DeflationaryToken #AILayer1 #Web3AI #Buyback #DecentralizedStorageTHE MONEY PRINTER AI PROTOCOL! In this essential ...\">",
+      "<meta itemprop=\"description\" content=\"#0GProtocol #ModularAI #DataAvailability #DeflationaryToken #AILayer1 #Web3AI #Buyback #DecentralizedStorageTHE MONEY PRINTER AI PROTOCOL! In this essential ...\">",
+      "<meta itemprop=\"datePublished\" content=\"2025-10-06T01:00:06-07:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=l9mK2y8O4Uw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=l9mK2y8O4Uw",
+    "title": "Panel 3 - Where TEEs, FHE, MPC, and ZK Fit in a Quantum World - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"During Ethereum Denver 2026, Tectonic hosted the Quantum Summit with Sushi, Hack VC, Halborn, Polymarket, 0g Labs, Web3 Job Opps. and Events, and Hexaco Alph...\">",
+      "<meta property=\"og:description\" content=\"During Ethereum Denver 2026, Tectonic hosted the Quantum Summit with Sushi, Hack VC, Halborn, Polymarket, 0g Labs, Web3 Job Opps. and Events, and Hexaco Alph...\">",
+      "<meta name=\"twitter:description\" content=\"During Ethereum Denver 2026, Tectonic hosted the Quantum Summit with Sushi, Hack VC, Halborn, Polymarket, 0g Labs, Web3 Job Opps. and Events, and Hexaco Alph...\">",
+      "<meta itemprop=\"description\" content=\"During Ethereum Denver 2026, Tectonic hosted the Quantum Summit with Sushi, Hack VC, Halborn, Polymarket, 0g Labs, Web3 Job Opps. and Events, and Hexaco Alph...\">",
+      "<meta itemprop=\"datePublished\" content=\"2026-03-06T05:35:57-08:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=og4yujmUPvk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=og4yujmUPvk",
+    "title": "Jake Salerno and Ming Wu - 0G - AI Without Limits - TOKEN2049 Singapore 2025 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta property=\"og:description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta name=\"twitter:description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta itemprop=\"description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta itemprop=\"datePublished\" content=\"2025-10-07T11:34:26-07:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/0G_labs/status/2026990980164116547?s=20",
+    "status": 200,
+    "final": "https://x.com/0G_labs/status/2026990980164116547?s=20",
+    "title": "0G Labs on X: &quot;27% trust in AI! Non-human identities outnumber humans 100:1.  \n\nThe crisis is real, and @JakeSalerno just laid out exactly how 0G fixes it at The Scaling Summit hosted by @499_DAO at #ETHDenver.&quot; / X",
+    "metadata": [
+      "<meta property=\"og:description\" content=\"27% trust in AI! Non-human identities outnumber humans 100:1.  \n\nThe crisis is real, and @JakeSalerno just laid out exactly how 0G fixes it at The Scaling Summit hosted by @499_DAO at #ETHDenver.\"/>",
+      "<meta name=\"description\" content=\"27% trust in AI! Non-human identities outnumber humans 100:1.  \n\nThe crisis is real, and @JakeSalerno just laid out exactly how 0G fixes it at The Scaling Summit hosted by @499_DAO at #ETHDenver.\"/>",
+      "<meta name=\"twitter:description\" content=\"27% trust in AI! Non-human identities outnumber humans 100:1.  \n\nThe crisis is real, and @JakeSalerno just laid out exactly how 0G fixes it at The Scaling Summit hosted by @499_DAO at #ETHDenver.\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/EthereumDenver/status/2024270563573977443?s=20",
+    "status": 200,
+    "final": "https://x.com/EthereumDenver/status/2024270563573977443?s=20",
+    "title": "ETHDenver \ud83c\udfd4\ud83e\uddac\ud83e\udd84 on X: &quot;TGE: A Look Inside the War Room\u2026 by:\n\n- @NimitaParekh from @TaakatTGE\n- @clairekart from @aztecnetwork\n- @JakeSalerno from @0G_labs\n- Kevin March from @jpegtrading \n\nEvery TGE has an unexpected crisis: flash crashes, midnight CEX negotiations, scammer attacks, wallet errors\u2026 / X",
+    "metadata": [
+      "<meta property=\"og:description\" content=\"TGE: A Look Inside the War Room\u2026 by:\n\n- @NimitaParekh from @TaakatTGE\n- @clairekart from @aztecnetwork\n- @JakeSalerno from @0G_labs\n- Kevin March from @jpegtrading \n\nEvery TGE has an unexpected crisis: flash crashes, midnight CEX negotiations, scammer attacks, wallet errors &amp; claim failures. Join f\u2026\"/>",
+      "<meta name=\"description\" content=\"TGE: A Look Inside the War Room\u2026 by:\n\n- @NimitaParekh from @TaakatTGE\n- @clairekart from @aztecnetwork\n- @JakeSalerno from @0G_labs\n- Kevin March from @jpegtrading \n\nEvery TGE has an unexpected crisis: flash crashes, midnight CEX negotiations, scammer attacks, wallet errors &amp; claim failures. Join f\u2026\"/>",
+      "<meta name=\"twitter:description\" content=\"TGE: A Look Inside the War Room\u2026 by:\n\n- @NimitaParekh from @TaakatTGE\n- @clairekart from @aztecnetwork\n- @JakeSalerno from @0G_labs\n- Kevin March from @jpegtrading \n\nEvery TGE has an unexpected cr\u2026\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/FP_Block/status/2055030392009138562?s=20",
+    "status": 200,
+    "final": "https://x.com/FP_Block/status/2055030392009138562?s=20",
+    "title": "FP Block on X: &quot;One of the stronger conversations from our Consensus side-event focused on the realities of building multichain systems.\n\n@settingthetempo hosted a discussion with @WesCrook, @real_digidavid from @gosodax, and @JakeSalerno from @0G_labs around some of the challenges teams run into a\u2026 / X",
+    "metadata": [
+      "<meta property=\"og:description\" content=\"One of the stronger conversations from our Consensus side-event focused on the realities of building multichain systems.\n\n@settingthetempo hosted a discussion with @WesCrook, @real_digidavid from @gosodax, and @JakeSalerno from @0G_labs around some of the challenges teams run into as systems scale\u2026\"/>",
+      "<meta name=\"description\" content=\"One of the stronger conversations from our Consensus side-event focused on the realities of building multichain systems.\n\n@settingthetempo hosted a discussion with @WesCrook, @real_digidavid from @gosodax, and @JakeSalerno from @0G_labs around some of the challenges teams run into as systems scale\u2026\"/>",
+      "<meta name=\"twitter:description\" content=\"One of the stronger conversations from our Consensus side-event focused on the realities of building multichain systems.\n\n@settingthetempo hosted a discussion with @WesCrook, @real_digidavid from\u2026\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/i/broadcasts/1YqJDZdVYMDKV?s=20",
+    "status": 200,
+    "final": "https://x.com/i/broadcasts/1YqJDZdVYMDKV?s=20",
+    "title": "Aethir\u2019s AI Unbundled: Web3 AI Pioneers AMA - Live Broadcast by Aethir / X",
+    "metadata": [
+      "<meta content=\"Aethir\u2019s AI Unbundled: Web3 AI Pioneers AMA\" name=\"description\"/>",
+      "<meta content=\"Aethir\u2019s AI Unbundled: Web3 AI Pioneers AMA\" property=\"og:description\"/>",
+      "<meta name=\"twitter:description\" content=\"Aethir\u2019s AI Unbundled: Web3 AI Pioneers AMA\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/i/spaces/1BdGYqRBNlDGX?s=20",
+    "status": 200,
+    "final": "https://x.com/i/spaces/1BdGYqRBNlDGX/peek?s=20",
+    "title": "Play recording: Starboard Roundtable / X",
+    "metadata": [
+      "<meta name=\"description\" content=\"Galxe&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta property=\"og:description\" content=\"Galxe&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta name=\"twitter:description\" content=\"Galxe&#x27;s Space \u00b7 Where live audio conversations happen\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/i/spaces/1OwxWNLLlpDJQ?s=20",
+    "status": 200,
+    "final": "https://x.com/i/spaces/1OwxWNLLlpDJQ/peek?s=20",
+    "title": "Play recording: \ud83c\udf99\ufe0fWhat are the \u2018best\u2019 real world, web3, use cases for AI? / X",
+    "metadata": [
+      "<meta name=\"description\" content=\"WAGMI HUB&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta property=\"og:description\" content=\"WAGMI HUB&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta name=\"twitter:description\" content=\"WAGMI HUB&#x27;s Space \u00b7 Where live audio conversations happen\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/i/spaces/1rmGPyaqBljJN?s=20",
+    "status": 200,
+    "final": "https://x.com/i/spaces/1rmGPyaqBljJN/peek?s=20",
+    "title": "Play recording: AI &amp; Web3: Who Controls Your Data? / X",
+    "metadata": [
+      "<meta name=\"description\" content=\"VS1&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta property=\"og:description\" content=\"VS1&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta name=\"twitter:description\" content=\"VS1&#x27;s Space \u00b7 Where live audio conversations happen\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://x.com/i/spaces/1vAGRDWwXOaxl?s=20",
+    "status": 200,
+    "final": "https://x.com/i/spaces/1vAGRDWwXOaxl/peek?s=20",
+    "title": "Play recording: The Allora Forecast EP 1 w/ Bullet Labs and 0G Labs / X",
+    "metadata": [
+      "<meta name=\"description\" content=\"Allora&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta property=\"og:description\" content=\"Allora&#x27;s Space \u00b7 Where live audio conversations happen\"/>",
+      "<meta name=\"twitter:description\" content=\"Allora&#x27;s Space \u00b7 Where live audio conversations happen\"/>"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://youtu.be/2btTirAJgp4?si=GZCsMYpfK8sAgmSE&t=22280",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?si=GZCsMYpfK8sAgmSE&t=22280&v=2btTirAJgp4&feature=youtu.be",
+    "title": "Stanford Bass - Denver 2026 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"BASS (Blockchain Application Stanford Summit) is the in-person focal point of Stanford\u2019s Blockchain entrepreneurial ecosystem. It\u2019s an event series gathering...\">",
+      "<meta property=\"og:description\" content=\"BASS (Blockchain Application Stanford Summit) is the in-person focal point of Stanford\u2019s Blockchain entrepreneurial ecosystem. It\u2019s an event series gathering...\">",
+      "<meta name=\"twitter:description\" content=\"BASS (Blockchain Application Stanford Summit) is the in-person focal point of Stanford\u2019s Blockchain entrepreneurial ecosystem. It\u2019s an event series gathering...\">",
+      "<meta itemprop=\"description\" content=\"BASS (Blockchain Application Stanford Summit) is the in-person focal point of Stanford\u2019s Blockchain entrepreneurial ecosystem. It\u2019s an event series gathering...\">",
+      "<meta itemprop=\"datePublished\" content=\"2026-02-19T08:14:42-08:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://youtu.be/LMxB1g1QfxA?si=t3_eeafqFsmFmXAp",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?si=t3_eeafqFsmFmXAp&v=LMxB1g1QfxA&feature=youtu.be",
+    "title": "Privacy, Security &amp; Open Source AI | Open AGI Summit | EthDenver 2026 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"\u201cPrivacy, Security, and Open Source AI\u201d explores what it takes to build AI systems people can trust.Moderated by Arman Aurobindo of Horizen Labs, this panel ...\">",
+      "<meta property=\"og:description\" content=\"\u201cPrivacy, Security, and Open Source AI\u201d explores what it takes to build AI systems people can trust.Moderated by Arman Aurobindo of Horizen Labs, this panel ...\">",
+      "<meta name=\"twitter:description\" content=\"\u201cPrivacy, Security, and Open Source AI\u201d explores what it takes to build AI systems people can trust.Moderated by Arman Aurobindo of Horizen Labs, this panel ...\">",
+      "<meta itemprop=\"description\" content=\"\u201cPrivacy, Security, and Open Source AI\u201d explores what it takes to build AI systems people can trust.Moderated by Arman Aurobindo of Horizen Labs, this panel ...\">",
+      "<meta itemprop=\"datePublished\" content=\"2026-03-03T08:49:32-08:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://youtu.be/og4yujmUPvk?si=ZP8q2lJAI2Ebyqpo",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?si=ZP8q2lJAI2Ebyqpo&v=og4yujmUPvk&feature=youtu.be",
+    "title": "Jake Salerno and Ming Wu - 0G - AI Without Limits - TOKEN2049 Singapore 2025 - YouTube",
+    "metadata": [
+      "<meta name=\"description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta property=\"og:description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta name=\"twitter:description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta itemprop=\"description\" content=\"Learn more about TOKEN2049: https://token2049.comFollow us on X: https://x.com/token2049Keynote: 0G - AI Without Limits: Scaling Intelligence on the Blockcha...\">",
+      "<meta itemprop=\"datePublished\" content=\"2025-10-07T11:34:26-07:00\">"
+    ],
+    "classification": "HTTP success; destination content checked at title/metadata level"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FEqSe1xZShQ",
+    "classification": "Browser playback verified readyState 4 and advancing currentTime; auto-generated transcript exported and reviewed; description matches card 31; upload October 13, 2026 distinct from October 6 event."
+  },
+  {
+    "url": "https://finance.yahoo.com/news/0g-labs-jake-salerno-reveals-231541657.html",
+    "final": "https://finance.yahoo.com/news/0g-labs-jake-salerno-reveals-231541657.html",
+    "classification": "Normal browser loads article with TheStreet attribution and February 26 syndicated date. Selected for same original February 25 interview, no duplicate appearance."
+  }
+]
